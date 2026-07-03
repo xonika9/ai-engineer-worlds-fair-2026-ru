@@ -558,6 +558,11 @@ select {
     grid-template-columns: 260px minmax(0, 1fr);
   }
 
+  .filters {
+    position: static;
+    min-height: auto;
+  }
+
   .detail {
     grid-column: 1 / -1;
     max-height: none;
@@ -568,10 +573,6 @@ select {
   .hero-grid,
   .workspace {
     grid-template-columns: 1fr;
-  }
-
-  .filters {
-    position: static;
   }
 
   .cards,
@@ -610,6 +611,10 @@ select {
     flex-direction: column;
     justify-content: center;
     padding: 12px 0;
+  }
+
+  .results-head {
+    padding: 16px 14px;
   }
 
   .nav-links {

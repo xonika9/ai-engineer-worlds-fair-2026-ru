@@ -146,7 +146,7 @@ export default function App() {
   const selectSession = (id: string) => {
     setSelectedId(id);
     if (window.innerWidth <= 1160) {
-      detailRef.current?.scrollIntoView({ block: "start" });
+      detailRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
     } else {
       detailRef.current?.scrollTo({ top: 0 });
     }
