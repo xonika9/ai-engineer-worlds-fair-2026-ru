@@ -102,7 +102,8 @@ function parseSummary(markdown, fallback) {
   }
 
   const videoMatch = markdown.match(/- Видео:\s+\[YouTube\]\(([^)]+)\)/);
-  const timestampLines = markdown
+  const timestampSection = sections.find((section) => /таймкод/i.test(section.title));
+  const timestampLines = (timestampSection?.body || "")
     .split(/\r?\n/)
     .map(parseTimestampLine)
     .filter(Boolean);
@@ -124,21 +125,28 @@ function parseSummary(markdown, fallback) {
   };
 }
 
-function parseTimestampLine(line) {
-  const trimmed = line.trim();
-  if (!trimmed.startsWith("- ")) return null;
+const TIME_PATTERN = String.raw`\d{1,2}:\d{2}(?::\d{2})?`;
+const DASH_CLASS = String.raw`[-–—‑]`;
+const timestampPattern = new RegExp(
+  `^\\[?\\s*(${TIME_PATTERN})\\s*\\]?(?:\\s*${DASH_CLASS}\\s*\\[?\\s*(${TIME_PATTERN})\\s*\\]?)?\\s*(?:${DASH_CLASS}|:)?\\s*(.+)$`,
+);
 
-  const cleaned = trimmed
-    .replace(/^-\s+/, "")
-    .replace(/^\*\*([^*]+)\*\*/, "$1")
+function parseTimestampLine(line) {
+  // Summaries use mixed list markers (-, *, •, numbered), sometimes wrap the
+  // time in backticks or brackets, and separate ranges with different dashes.
+  // Normalise the line, then read a start time, an optional end time and label.
+  const cleaned = line
+    .trim()
+    .replace(new RegExp(`^(?:${DASH_CLASS}|[*•]|\\d{1,2}[.)])\\s+`), "")
+    .replace(/[`*]/g, "")
     .trim();
-  const match = cleaned.match(
-    /^\[?(\d{1,2}:\d{2}(?::\d{2})?)(?:\s*[-–—]\s*(\d{1,2}:\d{2}(?::\d{2})?))?\]?\s*(?:[-–—:]\s*)?(.+)?$/,
-  );
+
+  const match = cleaned.match(timestampPattern);
   if (!match) return null;
 
   const [, time, endTime, rawLabel = ""] = match;
-  const label = rawLabel.replace(/\*\*/g, "").trim();
+  const label = rawLabel.trim();
+  if (label.length < 4) return null;
 
   return {
     time,
