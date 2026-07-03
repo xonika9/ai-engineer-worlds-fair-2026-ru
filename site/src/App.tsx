@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState, type ReactElement, type ReactNode } from "react";
 import {
   ArrowSquareOut,
+  ArrowUp,
   GithubLogo,
   MagnifyingGlass,
   TelegramLogo,
@@ -129,7 +130,24 @@ export default function App() {
   const [sort, setSort] = useState("priority");
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [loadError, setLoadError] = useState(false);
+  const [showToList, setShowToList] = useState(false);
   const detailRef = useRef<HTMLElement>(null);
+  const resultsRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const onScroll = () => {
+      const stacked = window.innerWidth <= 1160;
+      const inDetail = (detailRef.current?.getBoundingClientRect().top ?? Infinity) < 120;
+      setShowToList(stacked && inDetail);
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, []);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/sessions.json`)
@@ -346,7 +364,7 @@ export default function App() {
           </label>
         </aside>
 
-        <section className="results" aria-label="Доклады">
+        <section className="results" aria-label="Доклады" ref={resultsRef}>
           <div className="results-head">
             <div>
               <strong>{filtered.length}</strong>
@@ -451,6 +469,17 @@ export default function App() {
           )}
         </article>
       </section>
+
+      {showToList && (
+        <button
+          type="button"
+          className="to-list"
+          onClick={() => resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })}
+        >
+          <ArrowUp size={18} weight="bold" />
+          К списку
+        </button>
+      )}
     </main>
   );
 }

@@ -507,6 +507,24 @@ select {
   color: #8a2d1f;
 }
 
+.to-list {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 20;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 0;
+  border-radius: 999px;
+  background: #1d1d1b;
+  color: #f7f4ea;
+  padding: 11px 17px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 6px 22px rgba(23, 23, 23, 0.26);
+}
+
 .empty-state,
 .loading-shell {
   display: grid;
@@ -566,6 +584,7 @@ select {
   .detail {
     grid-column: 1 / -1;
     max-height: none;
+    padding-bottom: 76px;
   }
 }
 
