@@ -94,14 +94,6 @@ a {
   min-width: 0;
 }
 
-.kicker {
-  margin: 0 0 12px;
-  color: #8a2d1f;
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 0.02em;
-}
-
 h1 {
   max-width: 880px;
   margin: 0;
@@ -361,14 +353,11 @@ select {
   -webkit-line-clamp: 3;
 }
 
-.card-meta {
+.card-top {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  color: #77776d;
-  font-size: 12px;
-  font-weight: 700;
 }
 
 .relevance {
@@ -514,13 +503,13 @@ select {
   z-index: 20;
   display: inline-flex;
   align-items: center;
-  gap: 7px;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
   border: 0;
-  border-radius: 999px;
+  border-radius: 50%;
   background: #1d1d1b;
   color: #f7f4ea;
-  padding: 11px 17px;
-  font-weight: 700;
   cursor: pointer;
   box-shadow: 0 6px 22px rgba(23, 23, 23, 0.26);
 }

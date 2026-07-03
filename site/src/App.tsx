@@ -258,7 +258,6 @@ export default function App() {
 
         <section className="hero-grid">
           <div>
-            <p className="kicker">Русскоязычный навигатор</p>
             <h1>AI Engineer World's Fair 2026: навигатор по записям</h1>
             <p className="lead">
               Поиск, темы, саммари и таймкоды по публично доступным видео конференции.
@@ -380,11 +379,8 @@ export default function App() {
                 type="button"
                 onClick={() => selectSession(session.id)}
               >
-                <span className="tier">{tierLabels[session.watchTier] || session.watchTier}</span>
-                <h2>{session.title}</h2>
-                <p>{session.excerpt}</p>
-                <div className="card-meta">
-                  <span>{session.track}</span>
+                <div className="card-top">
+                  <span className="tier">{tierLabels[session.watchTier] || session.watchTier}</span>
                   <span
                     className="relevance"
                     title={`Релевантность ${session.relevance}/5`}
@@ -395,6 +391,8 @@ export default function App() {
                     ))}
                   </span>
                 </div>
+                <h2>{session.title}</h2>
+                <p>{session.excerpt}</p>
               </button>
             ))}
           </div>
@@ -474,10 +472,11 @@ export default function App() {
         <button
           type="button"
           className="to-list"
+          aria-label="К списку докладов"
+          title="К списку докладов"
           onClick={() => resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" })}
         >
-          <ArrowUp size={18} weight="bold" />
-          К списку
+          <ArrowUp size={22} weight="bold" />
         </button>
       )}
     </main>

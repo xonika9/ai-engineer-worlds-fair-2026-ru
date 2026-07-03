@@ -6,6 +6,8 @@ AI Engineer World's Fair 2026 — конференция про практиче
 
 Веб-версия навигатора: https://xonika9.github.io/ai-engineer-worlds-fair-2026-ru/
 
+Telegram-канал: https://t.me/+Rd60cz14OZI3OGMy
+
 ## Что внутри
 
 - [watchlist.md](watchlist.md) — с чего начать и что можно пропустить.
@@ -46,6 +48,10 @@ AI Engineer World's Fair 2026 — конференция про практиче
 - [YouTube-канал AI Engineer](https://www.youtube.com/@aiDotEngineer)
 - [AI Engineer World's Fair Online Track 2026](https://www.youtube.com/playlist?list=PLcfpQ4tk2k0V1LNigteMgExP1rb4Hy8wn)
 - [Официальное расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
+
+## Обратная связь
+
+Нашли ошибку — неверный таймкод, неточность в саммари или битую ссылку — заведите [issue](https://github.com/xonika9/ai-engineer-worlds-fair-2026-ru/issues). Туда же можно написать про доклад, которого пока нет, или предложить правку.
 
 ## Дисклеймер
 
