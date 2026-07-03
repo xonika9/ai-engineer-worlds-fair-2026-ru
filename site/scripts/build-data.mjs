@@ -212,7 +212,6 @@ const uniqueLongStreamSegments = new Set(
 ).size;
 
 const data = {
-  generatedAt: new Date().toISOString(),
   notice:
     "Обработано только то, что было публично доступно на YouTube на момент сбора, а не все выступления конференции.",
   stats: {

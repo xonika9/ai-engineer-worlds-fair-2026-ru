@@ -123,11 +123,15 @@ export default function App() {
             AI Engineer WF2026 RU
           </a>
           <div className="nav-links">
-            <a href="https://github.com/xonika9/ai-engineer-worlds-fair-2026-ru">
+            <a
+              href="https://github.com/xonika9/ai-engineer-worlds-fair-2026-ru"
+              target="_blank"
+              rel="noreferrer"
+            >
               <GithubLogo size={18} weight="bold" />
               GitHub
             </a>
-            <a href="https://www.youtube.com/@aiDotEngineer">
+            <a href="https://www.youtube.com/@aiDotEngineer" target="_blank" rel="noreferrer">
               <ArrowSquareOut size={18} weight="bold" />
               YouTube
             </a>
@@ -239,7 +243,11 @@ export default function App() {
               <strong>{filtered.length}</strong>
               <span>из {data.sessions.length} саммари</span>
             </div>
-            <a href="https://github.com/xonika9/ai-engineer-worlds-fair-2026-ru/blob/main/missing-sessions.md">
+            <a
+              href="https://github.com/xonika9/ai-engineer-worlds-fair-2026-ru/blob/main/missing-sessions.md"
+              target="_blank"
+              rel="noreferrer"
+            >
               missing sessions
             </a>
           </div>
@@ -272,12 +280,14 @@ export default function App() {
                 <h2>{selected.title}</h2>
                 <p>{selected.speakers || "Спикеры не указаны"}</p>
                 <div className="detail-actions">
-                  <a href={selected.youtubeUrl}>
+                  <a href={selected.youtubeUrl} target="_blank" rel="noreferrer">
                     <ArrowSquareOut size={18} weight="bold" />
                     Видео
                   </a>
                   <a
                     href={`https://github.com/xonika9/ai-engineer-worlds-fair-2026-ru/blob/main/${selected.summaryPath}`}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     <GithubLogo size={18} weight="bold" />
                     Саммари
@@ -309,6 +319,8 @@ export default function App() {
                   {selected.timestamps.slice(0, 8).map((timestamp) => (
                     <a
                       href={youtubeWithTime(selected.youtubeUrl, timestamp.time)}
+                      target="_blank"
+                      rel="noreferrer"
                       key={`${selected.id}-${timestamp.time}-${timestamp.label}`}
                     >
                       <strong>{timestamp.time}</strong>

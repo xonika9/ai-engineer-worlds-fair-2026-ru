@@ -26,7 +26,6 @@ export type Session = {
 };
 
 export type SiteData = {
-  generatedAt: string;
   notice: string;
   stats: {
     manifestRows: number;
