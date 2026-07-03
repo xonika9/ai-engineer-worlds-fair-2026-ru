@@ -75,7 +75,6 @@ export default function App() {
       .then((response) => response.json())
       .then((payload: SiteData) => {
         setData(payload);
-        setSelectedId(payload.sessions[0]?.id || null);
       });
   }, []);
 
