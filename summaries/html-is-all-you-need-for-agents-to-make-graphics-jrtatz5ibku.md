@@ -1,6 +1,6 @@
-# HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori
+# HTML is All You Need (for Agents to Make Graphics)
 
-- Спикеры: не указаны
+- Спикеры: Amol Kapoor, Nori
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=JRTAtZ5iBkU)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -28,9 +28,9 @@ Amol Kapoor (CEO Nori) рассказывает, как заставить AI-а
 - Бенчмарки: Arc AGI; тест Simon Willison на генерацию SVG-пеликана.  
 - Компания/продукт: Nori (Nori Sessions) — бот, встроенный в данные компании.
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте  
+## Что полезно разработчику
 - Прямое упоминание инструментов из списка отсутствует, но подход идеально ложится на браузерных агентов: генерация HTML в sandbox, выполнение в headless-браузере, observability через читаемый структурированный вывод.  
-- Для агентном продукте: это готовый конвейер «агент генерирует HTML → рендеринг → готовый слайд/отчёт».
+- Для агентного продукта: это готовый конвейер «агент генерирует HTML → рендеринг → готовый слайд/отчёт».
 
 ## Что можно применить в агентных продуктах  
 - Добавить возможность создания слайдов, документов и визуальных отчётов силами агентов через HTML, с последующей конвертацией в PDF/изображения.  

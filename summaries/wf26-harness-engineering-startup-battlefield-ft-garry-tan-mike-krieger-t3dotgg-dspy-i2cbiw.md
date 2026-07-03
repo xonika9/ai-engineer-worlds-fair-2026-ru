@@ -32,7 +32,7 @@
 
 DSPy, HOMA, HOMA, Ralph Loops, Claude Code, Codex, Fable 5, Mythos, Opus 4.5, Sonnet 3.5, Hyper Agent, Air Table, Verсel AI SDK, Eve, Restate, Resonate, Post Hog Wizard, Warlock, Turbo (Google), Gbrain, Open Claw, Gemini Interactions API, Y Combinator, Keycard, Human Layer, Sentry, Notion, Oracle AI Database.
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 
 - **DSPy** — переиспользование AI-программ как функций с чёткими контрактами, оптимизация промптов.
 - **Harness как организация**: паттерн «skill-файлы = сотрудники», «resolver = оргсхема».

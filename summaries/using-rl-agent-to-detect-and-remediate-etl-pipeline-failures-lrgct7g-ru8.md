@@ -1,6 +1,6 @@
-# Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon
+# Using RL Agent to Detect and Remediate ETL Pipeline Failures
 
-- Спикеры: не указаны
+- Спикеры: Anna Marie Benzon
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=LrGCT7G_rU8)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

@@ -1,6 +1,6 @@
-# Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data - Sachin Kumar, LexisNexis
+# Your LLM Deception Monitor Is Broken. The Fix Is in the Training Data
 
-- Спикеры: не указаны
+- Спикеры: Sachin Kumar, LexisNexis
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=IQkVMvXQKLY)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -34,9 +34,9 @@
 - Метрика: Backdoor Isolation Score (F1 с учётом false positives)
 - Организация: LexisNexis, упомянута статья IJCNN
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 
-Подход с diff SAE напрямую применим для мониторинга безопасности агентов (особенно при дообучении или использовании сторонних моделей). Может стать частью eval-конвейер в агентном продукте: автоматическая проверка каждого билда агента на скрытые бэкдоры без знания триггера, близкая к нулевой ложной тревоге, один дешёвый проход.
+Подход с diff SAE напрямую применим для мониторинга безопасности агентов (особенно при дообучении или использовании сторонних моделей). Может стать частью eval-конвейера в агентном продукте: автоматическая проверка каждого билда агента на скрытые бэкдоры без знания триггера, близкая к нулевой ложной тревоге, один дешёвый проход.
 
 ## 6. Что можно применить в агентных продуктах
 

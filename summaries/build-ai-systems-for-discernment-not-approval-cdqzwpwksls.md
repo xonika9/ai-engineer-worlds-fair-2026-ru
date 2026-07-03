@@ -1,6 +1,6 @@
-# Build AI Systems for Discernment, Not Approval - Angel Ortmann Lee, Duolingo
+# Build AI Systems for Discernment, Not Approval
 
-- Спикеры: не указаны
+- Спикеры: Angel Ortmann Lee, Duolingo
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=CDqzWpwkSls)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -30,7 +30,7 @@
 - Исследование Wharton «cognitive surrender» — как AI подменяет рассуждение человека.  
 - Подходы: structured interactions, выделение предположений, review gates, capture diff, explicit feedback.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте  
+## 5. Что полезно разработчику
 - Принцип «взаимодействие — уже лейбл» прямо применим к observability и evals: фиксируйте не только принятие/отклонение, но и диффы, переопределения, вопросы пользователя — это даёт размеченные сигналы для улучшения агентов.  
 - Для браузерных/офисных агентов критически важно встраивать review gates именно в высокоставковых шагах (например, запись в систему или отправка email), чтобы избежать rubber-stamping.  
 - Harness/sandboxes/tool execution: интерфейс должен явно показывать предположения агента и позволять их корректировать до исполнения, как в примере с junior developer.  

@@ -1,6 +1,6 @@
-# Continual Learning for AI Agents: From Failures to Durable Improvements - Soheil Feizi, RELAI
+# Continual Learning for AI Agents: From Failures to Durable Improvements
 
-- Спикеры: не указаны
+- Спикеры: Soheil Feizi, RELAI
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=2IxD9OB3XuQ)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -29,7 +29,7 @@
 - **Методы работы с памятью**: LETA, MemZero (факты и сжатие навыков).
 
 ## 5. Что полезно разработчику
-Доклад прямо касается AI-агентов, harness-инженерии, observability (анализ логов), evals (оценка через evaluators) и исполнения инструментов (моки или реальные tools). Полезен для проектирования циклов улучшения агентов без постоянного переобучения моделей. Для агентном продукте напрямую не описано, но общие принципы применимы.
+Доклад прямо касается AI-агентов, harness-инженерии, observability (анализ логов), evals (оценка через evaluators) и исполнения инструментов (моки или реальные tools). Полезен для проектирования циклов улучшения агентов без постоянного переобучения моделей. Для агентного продукта напрямую не описано, но общие принципы применимы.
 
 ## 6. Что можно применить в агентных продуктах
 - Внедрение replayable learning environments на основе пользовательских сессий.

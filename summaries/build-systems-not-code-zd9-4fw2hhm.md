@@ -1,6 +1,6 @@
-# Build Systems, Not Code - Angie Jones, Agentic AI Foundation
+# Build Systems, Not Code
 
-- Спикеры: не указаны
+- Спикеры: Angie Jones, Agentic AI Foundation
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=ZD9-4fW2HhM)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -34,7 +34,7 @@
 - Подходы: systems thinking, рабочий процесс design, decomposition, separation of concerns, modularity, algorithmic thinking, структурированные контракты, идемпотентность, threat modeling, maintainability, lint‑pass для оздоровления состояния.  
 - В докладе не упоминаются другие конкретные коммерческие продукты или инструменты.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте  
+## 5. Что полезно разработчику
 Принципы модульности (скиллы, суб‑агенты), чёткие контракты на выходные данные, идемпотентные действия и периодический lint‑pass напрямую применимы к инструментальному выполнению в песочницах и observability. Идея «системного дизайна поверх агентных примитивов» помогает строить контролируемые и наблюдаемые воркфлоу.
 
 ## 6. Что можно применить в агентных продуктах  

@@ -1,6 +1,6 @@
-# SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale - Rishi Desai, Abundant AI
+# SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale
 
-- Спикеры: не указаны
+- Спикеры: Rishi Desai, Abundant AI
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=Rx8f05JI_WA)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

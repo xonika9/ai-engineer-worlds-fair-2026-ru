@@ -1,6 +1,6 @@
-# Stop Evaluating Models Like It's the 50s - Alejandro Vidal, Mindmakers
+# Stop Evaluating Models Like It's the 50s
 
-- Спикеры: не указаны
+- Спикеры: Alejandro Vidal, Mindmakers
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=EfcfUB2uprc)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -27,7 +27,7 @@
 - **Компании/модели:** Anthropic (Claude Opus 4.1), Google (Gemini 3 Pro, Gemini 2.5 Pro), OpenAI, DeepSeek (R1, дистилляции), o4-mini.
 - **Продукты/инструменты:** в докладе не названы конкретные инструменты; упомянуты harness (исполняющая среда бенчмарка) и подход Tiny Benchmarks.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 - Прямо по агентам, sandboxes, tool execution примеров нет, но в контексте **evals** и **observability** техники IRT применимы вплотную: более точное ранжирование агентов, выявление нестабильных конфигураций через остатки, адаптивные приватные тесты.
 - IRT помогает выявлять утечки и дистилляции, что важно для разработки бенчмарков в агентном продукте.
 

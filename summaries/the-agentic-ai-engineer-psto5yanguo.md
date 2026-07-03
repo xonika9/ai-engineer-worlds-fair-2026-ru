@@ -1,6 +1,6 @@
-# The Agentic AI Engineer - Benedikt Sanftl, Mutagent
+# The Agentic AI Engineer
 
-- Спикеры: не указаны
+- Спикеры: Benedikt Sanftl, Mutagent
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=pSto5YaNGUo)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

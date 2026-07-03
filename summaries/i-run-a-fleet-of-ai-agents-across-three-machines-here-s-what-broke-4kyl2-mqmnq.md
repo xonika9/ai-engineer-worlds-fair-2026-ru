@@ -1,6 +1,6 @@
-# I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle Jaejun Lee, KRAFTON
+# I Run a Fleet of AI Agents Across Three Machines. Here's What Broke.
 
-- Спикеры: не указаны
+- Спикеры: Kyle Jaejun Lee, KRAFTON
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=4kYl2_mqmnQ)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -30,7 +30,7 @@
 tmux, tmux capture-pane/send-keys, SSH, Git, pull request, Claude, MCP-процессы, Discord, Kubernetes. Подходы — иерархия агентов, file-based state, context reset вместо compact, review gateway, per-machine workspace, overlord boot.
 
 ## Что полезно разработчику
-- **AI-агенты** — центральная тема; **harness** — упомянут CLI harness для делегирования; **sandboxes** — изоляция workspace и разделение креденшелов; **tool execution** — CLI и MCP-процессы; **developer tools** — агенты сами построили review gateway; **evals и observability** — прямых упоминаний нет, observability частично реализована через централизованный инбокс и Discord-уведомления. Браузерные/офисные агенты и агентном продукте не затрагиваются.
+- **AI-агенты** — центральная тема; **harness** — упомянут CLI harness для делегирования; **sandboxes** — изоляция workspace и разделение креденшелов; **tool execution** — CLI и MCP-процессы; **developer tools** — агенты сами построили review gateway; **evals и observability** — прямых упоминаний нет, observability частично реализована через централизованный инбокс и Discord-уведомления. Браузерные/офисные агенты и агентный продукт не затрагиваются.
 
 ## Что можно применить в агентных продуктах
 Иерархическую организацию агентов с передачей контекста через файлы, механизм ручного ревью планов (gateway) перед выполнением действий, хранение состояния на диске для отказоустойчивости, CLI harness как способ гарантированного делегирования, Git‑синхронизацию контекста при работе на нескольких машинах.

@@ -1,6 +1,6 @@
-# Structuring the Unstructured - Cedric Clyburn, Red Hat
+# Structuring the Unstructured
 
-- Спикеры: не указаны
+- Спикеры: Cedric Clyburn, Red Hat
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=-x5GEVnkuRw)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -26,7 +26,7 @@
 4. Упомянутые инструменты, фреймворки, компании, продукты и подходы  
 Docling, Docling serve, Docling MCP server, Granite (модель), Ollama, MLX, OpenAI API, Pydantic, Jupyter Notebook, Linux Foundation, Red Hat, IBM (годовой отчёт), Hugging Face (Leandro), NVIDIA, Claude Code, Cursor, Continue, Codex, Hybrid Chunkier, RAG, Agentic RAG, chunkless RAG, OCR, layout analysis, vision language model.
 
-5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте  
+## 5. Что полезно разработчику
 – Docling даёт AI-агентам готовый инструмент для точного извлечения данных из документов, что закрывает потребность в парсинге PDF, таблиц и изображений внутри агентов.  
 – Может служить «песочницей» для обработки входящих файлов перед передачей в LLM, улучшая observability за счёт структурированного вывода (Markdown, JSON, Pydantic‑схемы).  
 – Интеграция через MCP‑сервер встраивается в developer‑tools (VS Code, Cursor) и agentic‑harness, позволяя агенту самостоятельно выбирать нужные разделы документа.  

@@ -1,6 +1,6 @@
-# Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs
+# Voice In, Visuals Out: The Agony and the Ecstasy
 
-- Спикеры: не указаны
+- Спикеры: Allen Pike, Forestwalk Labs
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=65X0pQ6Lmbg)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

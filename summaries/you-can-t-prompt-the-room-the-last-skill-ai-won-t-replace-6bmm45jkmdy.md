@@ -1,6 +1,6 @@
-# You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs
+# You Can't Prompt the Room: The Last Skill AI Won't Replace
 
-- Спикеры: не указаны
+- Спикеры: Balázs Horváth, VisualLabs
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=6bmM45jkMDY)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -26,7 +26,7 @@
 ## 4. Упомянутые инструменты, фреймворки, компании, продукты и подходы
 User story mapping, business model canvas, value canvas, design thinking, VAD (value architecture design), пользовательские истории, acceptance criteria, markdown-файлы в репозитории для контекста AI. Упомянуты роли бизнес-аналитиков и функциональных консультантов, подход product management. Из компаний — только VisualLabs.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 Конкретных упоминаний harness, sandboxes, tool execution, evals, observability в докладе нет. Для AI-агентов полезен подход: проверять ценность идеи до реализации (пример внутреннего хакатона, где 17 из 21 агентов отброшены из-за отсутствия бизнес-ценности), задавать четыре вопроса и применять story mapping для отбора по-настоящему нужных агентов.
 
 ## 6. Что можно применить в агентных продуктах

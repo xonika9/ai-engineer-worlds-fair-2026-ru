@@ -1,6 +1,6 @@
-# Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence Labs
+# Production Evals For Agentic AI Systems
 
-- Спикеры: не указаны
+- Спикеры: Nishant Gupta, Meta Superintelligence Labs
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=vljxQZfJ9wY)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -28,8 +28,8 @@
 - Подходы: scenario‑based evals, продакшен telemetry, agent traces как аналог distributed tracing, архитектура control plane / execution plane, continuous evaluation loop.  
 - Конкретные инструменты не названы; опора на observability-паттерны и собственные инфраструктуры.
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте  
-Доклад не привязан к конкретным инструментам, но даёт универсальную схему: отделение observability (control plane), детальные трейсы вызовов инструментов, петля обратной связи с реальным использованием. Это прямо применимо к любым агентам (браузерным, офисным) и песочницам. Для агентном продукте особенно ценен акцент на продакшен‑телеметрию как главный источник сигналов и подход SRE‑метрик вместо сырых accuracy‑оценок.
+## Что полезно разработчику
+Доклад не привязан к конкретным инструментам, но даёт универсальную схему: отделение observability (control plane), детальные трейсы вызовов инструментов, петля обратной связи с реальным использованием. Это прямо применимо к любым агентам (браузерным, офисным) и песочницам. Для агентного продукта особенно ценен акцент на продакшен‑телеметрию как главный источник сигналов и подход SRE‑метрик вместо сырых accuracy‑оценок.
 
 ## Что можно применить в агентных продуктах  
 - Внедрить сбор execution traces агентов (каждый tool call, переход состояния) для анализа поведения.  

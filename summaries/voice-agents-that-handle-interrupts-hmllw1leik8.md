@@ -1,6 +1,6 @@
-# Voice Agents That Handle Interrupts - Chintan Agrawal, Amazon Web Services
+# Voice Agents That Handle Interrupts
 
-- Спикеры: не указаны
+- Спикеры: Chintan Agrawal, Amazon Web Services
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=hMlLw1LeIK8)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -38,7 +38,7 @@
 - **AWS guidance** — reference architecture для enterprise.
 - **Salesforce** — опубликовали результаты в марте 2026 (TTFR 755 мс).
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 - **Observability**: на уровне 3 можно логировать решение Smart Turn и видеть, почему выбран момент ответа; это критично для отладки и evals.
 - **Turn detection как отдельный компонент** даёт гибкость в песочницах и тестовых средах (harness/sandboxes).
 - **Smart Turn** открывает путь к файн-тюнингу под собственный домен, что актуально для кастомных офисных и браузерных агентов.

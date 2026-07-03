@@ -1,6 +1,6 @@
-# A Genius With Amnesia - Victor Savkin, Nx
+# A Genius With Amnesia
 
-- Спикеры: не указаны
+- Спикеры: Victor Savkin, Nx
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=jVjt-2g8NMY)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -29,7 +29,7 @@
 ## Упомянутые инструменты, фреймворки, компании, продукты и подходы
 Polygraph (агент-агностичный мета-харнесс), Nx, агенты Claude, Cortex, Codex; GitHub, Pull Requests, CI, система контроля версий (SHA). Упоминается, но отвергается, подход «context seven». Также метафора транспортера из Star Trek и сравнение коллективной памяти с Borg.
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 Polygraph демонстрирует, как мета-обёртка может расширить любого агента (браузерного, офисного) до работы со всей кодовой экосистемой. Захват полного состояния сессий (репо, SHA, трейсы) — готовая модель для sandboxes/воспроизводимых окружений. Логи агентов и связи сессий — основа для observability и evals. Интеграция поиска по сессиям даёт агенту контекст исполнения инструментов (tool execution). Эти идеи прямо применимы к построению developer tools в агентном продукте.
 
 ## Что можно применить в агентных продуктах

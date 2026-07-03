@@ -1,6 +1,6 @@
-# When Agents Meet Physical Data: The Other Physics of Agent Harnesses - Dmitry Petrov, DataChain
+# When Agents Meet Physical Data: The Other Physics of Agent Harnesses
 
-- Спикеры: не указаны
+- Спикеры: Dmitry Petrov, DataChain
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=bUJgirn4_yc)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -31,7 +31,7 @@
 - Кодинг-агенты: **Cloud Code**, **Copilot**, **Codex**.
 - Подходы: инкрементальная обработка, чекпоинты, многомерная модель данных (star schema), MCP-подобное расширение контекста.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 - Принцип «упряжи» как прослойки между агентом и неструктурированным хранилищем прямо применим к браузерным/офисным агентам, работающим с файлами и веб-контентом.
 - Подход с Pydantic-схемами и автогенерацией метаданных можно использовать в tool execution для структурирования результатов работы sandbox-инструментов.
 - Концепция чекпоинтов и инкрементальных обновлений критична для evals и observability при прогоне агентов на больших тестовых наборах.

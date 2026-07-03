@@ -1,6 +1,6 @@
-# The Pipeline Is Dead - Iris ten Teije, Sky Valley Ambient Computing
+# The Pipeline Is Dead
 
-- Спикеры: не указаны
+- Спикеры: Iris ten Teije, Sky Valley Ambient Computing
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=bRnoEpoK5m4)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -27,7 +27,7 @@
 - Подходы: *stem + divergences*, канонический ствол, изолированные и обратимые отклонения.  
 - Предшественники: feature flags, сегментация, A/B-тестирование.
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 В докладе не упоминаются конкретные инструменты или агенты. Неявно затрагиваются концепции **observability** (отслеживание происхождения и эффективности адаптаций) и **координации без слияния кода**, что можно применить к проектированию observability-слоя для агентных систем. Прямых параллелей с агентном продукте нет.
 
 ## Что можно применить в агентных продуктах

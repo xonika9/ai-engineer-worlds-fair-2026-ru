@@ -54,7 +54,7 @@
 - **Recursive:** концепция Eureka Machine, RSI, auto research на nanoGPT и CUDA kernel.
 - **Cognition, Cursor, Copathy, Polygraph:** упомянуты в контексте продуктивных агентных систем.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 
 - **Perception agents (Amazon AGI):** подход с разделяемым контекстом через скриншоты и непрерывную петлю «восприятие-действие» прямо применим к браузерным и офисным агентам. Annotation tool с Chrome extension — готовый пример для повторения.
 - **Harness:** Effect-based agent loop (OpenGV) — пример миграции с LangGraph на собственный лёгкий цикл с полным контролем, трейсингом и structured concurrency. Polygraph — мета-обвязка для многорепозиторных агентов.

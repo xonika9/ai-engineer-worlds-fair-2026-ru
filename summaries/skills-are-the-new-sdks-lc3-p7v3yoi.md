@@ -1,6 +1,6 @@
-# Skills are the New SDKs - Elvin Aghammadzada, DataRobot
+# Skills are the New SDKs
 
-- Спикеры: не указаны
+- Спикеры: Elvin Aghammadzada, DataRobot
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=LC3-P7v3yoI)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -32,7 +32,7 @@
 - Реестры навыков (Claude Agent, маркетплейсы)  
 - Аналогия с React как стандартом модульности
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 - **AI-агенты всех типов**: прогрессивное раскрытие контекста через навыки; трёхуровневая модель загрузки.  
 - **Harness**: «teachability» — новый критерий платформы: насколько легко навес осваивает домен через навыки.  
 - **Sandboxes**: риск — навыки работают без изоляции (в отличие от MCP), требуют контроля.  

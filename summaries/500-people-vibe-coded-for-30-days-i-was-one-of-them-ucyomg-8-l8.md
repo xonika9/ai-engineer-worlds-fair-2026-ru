@@ -1,6 +1,6 @@
-# 500 people vibe-coded for 30 days. I was one of them. - Sanja Grbic, Automattic
+# 500 people vibe-coded for 30 days. I was one of them.
 
-- Спикеры: не указаны
+- Спикеры: Sanja Grbic, Automattic
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=UcYoMg-8-L8)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -29,7 +29,7 @@
 **Продукты/компании**: Automattic, WordPress, Jetpack, WooCommerce, Tumblr, Beeper.
 **Подходы**: Radical Speed Month, AI enablement training (2-недельный интенсив), prototype-first, design engineer, enabler.
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 - **AI-агенты** — в третьем проекте (iOS-чат для WooCommerce) встроен AI-агент, сканирующий сайт и отвечающий на вопросы покупателей.
 - **Браузерные/офисные агенты** — не упоминаются.
 - **Harness** — нет.

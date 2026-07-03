@@ -1,6 +1,6 @@
-# The Prompt is the Platform - Dominik Tornow, Resonate HQ
+# The Prompt is the Platform
 
-- Спикеры: не указаны
+- Спикеры: Dominik Tornow, Resonate HQ
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=DqtmZE6Hl0g)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -29,7 +29,7 @@
 - Детерминированная симуляция на Python; симуляция key-value store NATS с версионированием, оптимистичной конкурентностью и инъекцией *stale reads*.
 - Абстрактная vs конкретная спецификация, «исполняемый дизайн» (simulated implementation), forbidden fruit trace events.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 - Методология **детерминированного симуляционного harness’а** для проектирования и проверки поведения агентов до продакшена.
 - Подход с «запретными» трассировками улучшает **evals и observability**: агент получает объяснимую обратную связь без изменения продакшн-ограничений.
 - Разделение на симуляционную и конкретную реализации применимо к **tool execution** в sandbox’ах — можно отлаживать алгоритмы работы с инструментами, устойчивые к гонкам и частичным отказам.

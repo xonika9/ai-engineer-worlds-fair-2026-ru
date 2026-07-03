@@ -1,6 +1,6 @@
-# Agent Output Is Not UX: Rendering Layer Your LLM Pipeline Is Missing - Bala Ramdoss, Amazon
+# Agent Output Is Not UX: Rendering Layer Your LLM Pipeline Is Missing
 
-- Спикеры: не указаны
+- Спикеры: Bala Ramdoss, Amazon
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=maTp79FD9gI)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -28,7 +28,7 @@
 - **Server‑driven UI / BFF** — подход к серверному управлению отрисовкой
 - **Generative UI** (спектр: контроль, декларативность, открытая генерация)
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 Доклад напрямую не касается перечисленных тем, но подход к слою между моделью и интерфейсом критичен для любых агентов: **браузерные/офисные агенты**, использующие tool execution, могут выиграть от стриминга прогресса и рендеринга UI‑компонентов вместо сырого текста. Контракт с моделью и BFF применимы в observability и evals, когда нужно собирать структурированные логи действий.
 
 ## 6. Что можно применить в агентных продуктах

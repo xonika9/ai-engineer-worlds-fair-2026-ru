@@ -1,6 +1,6 @@
-# User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch
+# User Signal Dies at the Retrieval Boundary
 
-- Спикеры: не указаны
+- Спикеры: Sonam Pankaj, StarlightSearch
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=Jx4ZFEAq6bY)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

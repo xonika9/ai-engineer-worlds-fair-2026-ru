@@ -1,6 +1,6 @@
-# What Does Done Even Mean? Agents and Paperclip's Liveness Model - Dotta, Paperclip
+# What Does Done Even Mean? Agents and Paperclip's Liveness Model
 
-- Спикеры: не указаны
+- Спикеры: Dotta, Paperclip
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=7P0elyLIxXo)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -28,13 +28,13 @@
 Paperclip, watchdogs (harness-agnostic), поддержка Py, OpenGL, Hermes, Claude Code, Codex, browser harness, блокеры, диаграмма состояний, идемпотентные checkout’ы, аудиторский след.
 
 ## 5. Что полезно разработчику
-AI-агенты, браузерные агенты, harness, tool execution, developer tools затронуты напрямую; sandboxes не упоминались; evals/observability — косвенно через доказательства и цепочку; агентном продукте не упоминается, но уроки применимы.
+AI-агенты, браузерные агенты, harness, tool execution, developer tools затронуты напрямую; sandboxes не упоминались; evals/observability — косвенно через доказательства и цепочку; агентный продукт не упоминается, но уроки применимы.
 
 ## 6. Что можно применить в агентных продуктах
 Структурированное «готово» (артефакт + критерии + доказательства + следующий ответственный). Разные агенты для генерации и верификации. Watchdog для предотвращения зависаний.
 
 ## 7. Возможная идея для поста
-«Done — не галочка: как агентам подтверждать свою работу без AI slop» — разбор пяти компонентов с примерами для агентном продукте.
+«Done — не галочка: как агентам подтверждать свою работу без AI slop» — разбор пяти компонентов с примерами для агентного продукта.
 
 ## 8. Стоит ли смотреть полностью: yes
 Короткий и насыщенный практическими советами (7 мин.).

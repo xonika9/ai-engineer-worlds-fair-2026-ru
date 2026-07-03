@@ -1,6 +1,6 @@
-# Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS
+# Using Spec-Driven Development for Production Workflows
 
-- Спикеры: не указаны
+- Спикеры: Erik Hanchett, AWS
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=IddXPepIAS4)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -33,7 +33,7 @@
 - Property‑based testing (fast‑check в TypeScript).  
 - Форматы: EARS, Mermaid, markdown‑документы.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте  
+## 5. Что полезно разработчику
 Прямых упоминаний указанных направлений нет, однако подход spec‑driven‑разработки применим к созданию любых AI-агентов: чёткие спецификации дают платформам (включая «harness»‑решения) структуру для исполнения инструментов и повышения качества. Можно использовать как методологию для агентов агентном продукте.
 
 ## 6. Что можно применить в агентных продуктах  

@@ -1,6 +1,6 @@
-# Your Coding Agent Is Creating Review Debt - Sachin Gupta
+# Your Coding Agent Is Creating Review Debt
 
-- Спикеры: не указаны
+- Спикеры: Sachin Gupta
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=TJPInBjhE4Q)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -29,7 +29,7 @@
 - Фреймворк из 5 сигналов и 10 чеков, бальная шкала 0–100, 4 полосы: 0‑24 (низкая нагрузка), 25‑49 (норма), 50‑74 (нужны доказательства), 75+ (высокий долг/разделяй).
 - Copilot, Codex, Cursor как источники AI-авторства (упоминаются паттерны веток и co-authored-by).
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 Прямых упоминаний этих категорий нет. Однако концепция review debt и предложенная механика сигналов применимы: можно встроить аналогичный сканер в конвейер разработки AI-агентов, использовать оценки review burden при приёмке сгенерированных изменений, особенно если агенты работают с кодом в песочницах или офисных инструментах.
 
 ## Что можно применить в агентных продуктах

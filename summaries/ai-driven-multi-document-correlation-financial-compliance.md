@@ -1,6 +1,6 @@
-# AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent
+# AI-Driven Multi-Document Correlation for Financial Compliance
 
-- Спикеры: не указаны
+- Спикеры: Varsha Shah, Independent
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=Iwe_RY-fYgI)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -25,7 +25,7 @@
 4. Упомянутые инструменты, фреймворки, компании, продукты и подходы
 Названы только методологии: графовая корреляция сущностей, адаптивное вероятностное моделирование рисков, кросс-юрисдикционная нормализация. Противопоставляются традиционным системам на правилах и документному NLP. Оратор — Варша Шах из Tata Consultancy Services (работает с Microsoft).
 
-5. Что полезно разработчику (AI-агенты, браузерные/офисные агенты, harness, sandboxes, tool execution, dev tools, evals, observability, агентном продукте)
+## 5. Что полезно разработчику
 Прямых упоминаний нет. Концепция много-документной корреляции и графовой связности может вдохновить на создание агентов, способных объединять данные из разрозненных источников, но практические отсылки отсутствуют.
 
 6. Что можно применить в агентных продуктах

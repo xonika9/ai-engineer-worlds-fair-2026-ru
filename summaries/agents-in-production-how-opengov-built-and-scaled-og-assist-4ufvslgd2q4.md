@@ -1,6 +1,6 @@
-# Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov
+# Agents in Production: How OpenGov Built and Scaled OG Assist
 
-- Спикеры: не указаны
+- Спикеры: Gabe De Mesa, OpenGov
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=4uFVSLgD2Q4)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

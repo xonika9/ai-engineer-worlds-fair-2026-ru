@@ -8,14 +8,15 @@ const outputDir = path.resolve(repoRoot, "site/public/data");
 
 const topicRules = [
   ["AI agents", /agent|агент/i],
-  ["Coding agents", /coding agent|код|swe|review debt|spec-driven/i],
-  ["Browser/workflow agents", /browser|workflow|web|office|document|voice/i],
-  ["Tool use", /tool|инструмент|mcp|retrieval|rag/i],
-  ["Harness / sandbox", /harness|sandbox|песочниц|record\/replay|save button/i],
-  ["Evals / reliability / observability", /eval|reliab|observ|debug|failure|prod|галлюцинац|monitor/i],
-  ["Developer tools", /developer|sdk|ci\/cd|typescript|terminal|tools/i],
+  ["Coding agents", /coding agent|coding agents|swe-marathon|review debt|spec-driven|кодинг/i],
+  ["Browser/workflow agents", /browser|браузер|workflow|office|document|voice|голос/i],
+  ["Tool use", /tool use|tool call|tool execution|инструмент(?:ы|ов)? выполнения|mcp|retrieval|rag/i],
+  ["Harness / sandbox", /harness|харнес|sandbox|песочниц|record\/replay|save button|state machine|scaffolding/i],
+  ["Evals / reliability / observability", /eval|reliab|observ|наблюдаем|debug|failure|prod|галлюцинац|monitor|latency/i],
+  ["Developer tools", /developer tools|devtools|sdk|ci\/cd|terminal|ide|инструмент(?:ы|ов)? разработ/i],
   ["Product ideas", /product|gtm|startup|ux|buyer|vertical/i],
   ["Industry direction", /future|platform|systems|factory|paradigm|индустр/i],
+  ["Other", /.+/i],
 ];
 
 function parseCsv(text) {
@@ -75,21 +76,25 @@ function slugFromPath(summaryPath) {
 function stripMarkdown(value) {
   return value
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
-    .replace(/[*_`>#-]/g, "")
+    .replace(/^\s*[-*]\s+/gm, "")
+    .replace(/[*_`>#]/g, "")
     .replace(/\s+/g, " ")
     .trim();
 }
 
 function parseSummary(markdown, fallback) {
   const lines = markdown.split(/\r?\n/);
-  const title = lines.find((line) => line.startsWith("# "))?.replace(/^# /, "").trim() || fallback.title;
+  const rawTitle = lines.find((line) => line.startsWith("# "))?.replace(/^# /, "").trim() || fallback.title;
+  const metaSpeakers =
+    markdown.match(/^- Спикеры:\s+(.+)$/m)?.[1]?.trim() || fallback.speakers || "";
+  const { title, speakers } = normalizeTitleAndSpeakers(rawTitle, metaSpeakers);
   const sections = [];
   let current = null;
 
   for (const line of lines) {
-    const sectionMatch = line.match(/^##\s+(?:\d+\.\s*)?(.+)$/);
-    if (sectionMatch) {
-      current = { title: sectionMatch[1].trim(), body: "" };
+    const sectionTitle = getSectionTitle(line);
+    if (sectionTitle) {
+      current = { title: sectionTitle, body: "" };
       sections.push(current);
     } else if (current) {
       current.body += `${line}\n`;
@@ -99,9 +104,9 @@ function parseSummary(markdown, fallback) {
   const videoMatch = markdown.match(/- Видео:\s+\[YouTube\]\(([^)]+)\)/);
   const timestampLines = markdown
     .split(/\r?\n/)
-    .filter((line) => /^-\s+\d+:\d{2}/.test(line.trim()))
+    .filter((line) => /^-\s+(?:\[)?\d+:\d{2}/.test(line.trim()))
     .map((line) => {
-      const cleaned = line.replace(/^-\s+/, "").trim();
+      const cleaned = line.replace(/^-\s+/, "").replace(/^\[([0-9:]+)\]/, "$1").trim();
       const match = cleaned.match(/^([0-9:]+)\s+[—-]\s+(.+)$/);
       return match ? { time: match[1], label: match[2] } : { time: cleaned, label: "" };
     });
@@ -112,6 +117,7 @@ function parseSummary(markdown, fallback) {
 
   return {
     title,
+    speakers,
     youtubeUrl: videoMatch?.[1] || fallback.youtube_url,
     sections: sections.map((section) => ({
       title: section.title,
@@ -122,19 +128,62 @@ function parseSummary(markdown, fallback) {
   };
 }
 
+function getSectionTitle(line) {
+  const markdownHeading = line.match(/^#{2,3}\s+(?:\d+\.\s*)?(.+)$/);
+  if (markdownHeading) {
+    return markdownHeading[1].trim().replace(/^\*\*(.+)\*\*$/, "$1");
+  }
+
+  const numberedHeading = line.trim().match(/^([1-9])\.\s+\**(.+?)\**\s*$/);
+  if (!numberedHeading) return "";
+
+  const title = numberedHeading[2].replace(/\*\*/g, "").trim();
+  return /^(О ч[её]м доклад|Главные идеи|Практические выводы|Упомянутые|Что полезно|Что можно применить|Возможная идея|Стоит ли смотреть|Самые важные таймкоды)/i.test(
+    title,
+  )
+    ? title
+    : "";
+}
+
+function normalizeTitleAndSpeakers(rawTitle, rawSpeakers) {
+  const speakersAreMissing = !rawSpeakers || /не указаны/i.test(rawSpeakers);
+  const separatorIndex = rawTitle.lastIndexOf(" - ");
+
+  if (speakersAreMissing && separatorIndex > 0) {
+    const title = rawTitle.slice(0, separatorIndex).trim();
+    const speakers = rawTitle.slice(separatorIndex + 3).trim();
+
+    if (title && speakers) {
+      return { title, speakers };
+    }
+  }
+
+  return { title: rawTitle, speakers: speakersAreMissing ? "" : rawSpeakers };
+}
+
 function inferTopics(session) {
-  const haystack = [
+  const contentSections = session.sections.filter((section) =>
+    /о ч[её]м|главные идеи|практические выводы|упомянутые/i.test(section.title),
+  );
+  const positiveText = [
     session.title,
     session.track,
-    session.excerpt,
-    session.sections.map((section) => `${section.title} ${section.body}`).join(" "),
+    contentSections.map((section) => section.body).join(" "),
   ].join(" ");
+  const usefulness = session.sections
+    .filter((section) => /полезно|применить/i.test(section.title))
+    .map((section) => section.body)
+    .join(" ");
+  const usefulnessIsNegative = /не затрагивает|прямых (?:упоминаний|привязок).*нет|конкретных упоминаний.*нет|не относится/i.test(
+    usefulness,
+  );
+  const haystack = usefulnessIsNegative ? positiveText : `${positiveText} ${usefulness}`;
 
   const topics = topicRules
-    .filter(([, rule]) => rule.test(haystack))
+    .filter(([topic, rule]) => topic !== "Other" && rule.test(haystack))
     .map(([topic]) => topic);
 
-  return topics.length ? topics : ["Industry direction"];
+  return topics.length ? topics : ["Other"];
 }
 
 function parseWatchlist(markdown) {
@@ -158,6 +207,14 @@ function parseWatchlist(markdown) {
   return tiers;
 }
 
+function relevanceForTier(tier, fallback) {
+  if (tier === "Must watch") return 5;
+  if (tier === "Worth skimming") return 4;
+  if (tier === "Only if needed") return 2;
+  if (/skip/i.test(tier)) return 1;
+  return Number(fallback || 3);
+}
+
 const manifest = parseCsv(await fs.readFile(path.resolve(repoRoot, "manifest.csv"), "utf8"));
 const watchTiers = parseWatchlist(await fs.readFile(path.resolve(repoRoot, "watchlist.md"), "utf8"));
 
@@ -179,12 +236,12 @@ for (const row of summaryRows) {
   const session = {
     id,
     title: parsed.title,
-    speakers: row.speakers,
+    speakers: parsed.speakers,
     track: row.track || "Online Track",
     youtubeUrl: parsed.youtubeUrl || row.youtube_url,
     sourceUrl: row.source_url,
     status: row.status,
-    relevance: Number(row.relevance || 0),
+    relevance: relevanceForTier(watchTier, row.relevance),
     summaryPath: row.summary_path,
     watchTier,
     excerpt: parsed.excerpt,

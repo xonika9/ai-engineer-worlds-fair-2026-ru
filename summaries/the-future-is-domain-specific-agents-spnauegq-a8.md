@@ -1,6 +1,6 @@
-# The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents
+# The Future Is Domain-Specific Agents
 
-- Спикеры: не указаны
+- Спикеры: Justin Schroeder, StandardAgents
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=spNAUEgq_A8)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -25,8 +25,8 @@
 ## Упомянутые инструменты, фреймворки, компании, продукты и подходы
 StandardAgents, Vercel AI SDK, Eve (Vercel), Dmux, ArrowJS, MCP (Model Context Protocol), Claude, ChatGPT, Codex, OpenClaude, Hermes, Figma, Playwright, Gmail, Google Sheets, Salesforce, DeepSeek V4 Flash, Fable 5, Nano Banana, GLM 5.2, SVG-генератор, GitHub skill, «grill me» skill. Подходы: domain-specific agents, multi-agent orchestration, composition over inheritance, sandboxed code execution, file system per agent.
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
-Идея domain‑specific агентов прямо релевантна для агентном продукте: можно заменить монолитные сценарии на композицию из маленьких агентов (песочницы с файловой системой, хуками и строгим набором инструментов). Это улучшит observability (лёгче отслеживать каждый шаг), повысит переносимость и снизит стоимость выполнения. Harness здесь — сам координатор и инфраструктура запуска изолированных sub‑агентов. Концепция tool execution как вызов полноценного под‑агента открывает путь к рекурсивной архитектуре.
+## Что полезно разработчику
+Идея domain‑specific агентов прямо релевантна для агентного продукта: можно заменить монолитные сценарии на композицию из маленьких агентов (песочницы с файловой системой, хуками и строгим набором инструментов). Это улучшит observability (лёгче отслеживать каждый шаг), повысит переносимость и снизит стоимость выполнения. Harness здесь — сам координатор и инфраструктура запуска изолированных sub‑агентов. Концепция tool execution как вызов полноценного под‑агента открывает путь к рекурсивной архитектуре.
 
 ## Что можно применить в агентных продуктах
 - Внедрить песочницы с изолированным файловым слоем для каждого инстанса агента.

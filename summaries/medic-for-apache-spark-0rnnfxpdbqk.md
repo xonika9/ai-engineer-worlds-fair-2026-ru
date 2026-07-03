@@ -1,6 +1,6 @@
-# Medic for Apache Spark - First Aid for Failing Jobs - Drasko Profirovic, Pinterest
+# Medic for Apache Spark - First Aid for Failing Jobs
 
-- Спикеры: не указаны
+- Спикеры: Drasko Profirovic, Pinterest
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=0RNNfxpdbQk)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

@@ -1,6 +1,6 @@
-# Stop AI Agent Hallucinations: 5 Techniques + Production Patterns - Elizabeth Fuentes, AWS
+# Stop AI Agent Hallucinations: 5 Techniques + Production Patterns
 
-- Спикеры: не указаны
+- Спикеры: Elizabeth Fuentes, AWS
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=vJukHCIv7Ck)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -27,7 +27,7 @@
 - **Облачные сервисы AWS**: Amazon Bedrock, Bedrock Agent Core, Agent Core Gateway, Lambda, DynamoDB, CloudWatch, AWS CDK.
 - Amazon Bedrock Agent Core в докладе описан как специализированный сервис для продакшен-агентов: инструменты регистрируются один раз, а система подбирает нужный инструмент под конкретный запрос.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 - Семантический отбор инструментов снижает шум и стоимость токенов — критично для агентов, работающих в песочницах или офисных плагинах.
 - Мульти-агентная валидация и хуки — готовые паттерны для наблюдаемости и надёжной исполнимости инструментов.
 - Рантайм-гайденс позволяет динамически менять политики без перезапуска harness’а, что удобно для экспериментов и evals.

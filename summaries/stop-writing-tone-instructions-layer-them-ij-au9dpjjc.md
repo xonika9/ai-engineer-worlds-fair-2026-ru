@@ -1,6 +1,6 @@
-# Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co
+# Stop Writing Tone Instructions. Layer Them.
 
-- Спикеры: не указаны
+- Спикеры: Isadora Martin-Dye, Isadora & Co
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=ij-AU9dpJjc)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -27,9 +27,9 @@
 
 ## Упомянутые инструменты, фреймворки, компании, продукты и подходы
 - Продукты автора: **Bloom** (AI-компаньон для свадебных площадок), **Thread Light** (инструмент для семей пропавших людей).
-- В докладе нет конкретных внешних фреймворков или тулов; подход — собранная автором prompt‑assembly архитектура.
+- В докладе нет конкретных внешних фреймворков или инструментов; подход — собранная автором prompt‑assembly архитектура.
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 Прямых упоминаний нет, но архитектура прямо применима к observability и evals: вето‑слой — это автономная проверка ответа перед доставкой, по сути eval на проде. Разделение на инструкции и детерминированную проверку помогает строить надёжных агентов и может быть встроено в harness‑подобный конвейер.
 
 ## Что можно применить в агентных продуктах

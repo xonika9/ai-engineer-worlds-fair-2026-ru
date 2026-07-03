@@ -1,6 +1,6 @@
-# 10x - Reimagining Mobile Development Workflow - Orel Zion, stag.build
+# 10x - Reimagining Mobile Development Workflow
 
-- Спикеры: не указаны
+- Спикеры: Orel Zion, stag.build
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=rCVVsxHWai8)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -27,7 +27,7 @@
 - Концепции: Cloud sandboxes (временные облачные VM), CI (Continuous Integration), симуляторы/эмуляторы, PR (Pull Request).  
 - Подходы: chat-style engineering, реорганизация воркфлоу вокруг AI-агентов и немедленных превью.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте  
+## 5. Что полезно разработчику
 - AI-агенты: показан сценарий, где агент выполняет задачи по запросу разных ролей — ценная модель для агентов в агентном продукте.  
 - Sandboxes: ключевая идея — лёгкие облачные VM для мобильной сборки и превью; напрямую применима к песочницам в продукте.  
 - Tool execution: взаимодействие через CLI и управление временными средами — релевантный шаблон.  

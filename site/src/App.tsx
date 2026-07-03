@@ -19,6 +19,14 @@ const topicLabels: Record<string, string> = {
   "Developer tools": "Developer tools",
   "Product ideas": "Product ideas",
   "Industry direction": "Industry direction",
+  Other: "Другое",
+};
+
+const tierLabels: Record<string, string> = {
+  "Must watch": "Смотреть",
+  "Worth skimming": "Просмотреть",
+  "Only if needed": "По необходимости",
+  "All summaries": "Саммари",
 };
 
 function sectionText(section?: Section) {
@@ -101,7 +109,7 @@ export default function App() {
 
   const selected = useMemo(() => {
     if (!data) return null;
-    return data.sessions.find((session) => session.id === selectedId) || filtered[0] || null;
+    return filtered.find((session) => session.id === selectedId) || filtered[0] || null;
   }, [data, filtered, selectedId]);
 
   if (!data) {
@@ -197,7 +205,7 @@ export default function App() {
                   type="button"
                   onClick={() => setTier(value)}
                 >
-                  {value === "all" ? "Все" : value}
+                  {value === "all" ? "Все" : tierLabels[value] || value}
                 </button>
               ))}
             </div>
@@ -260,12 +268,12 @@ export default function App() {
                 type="button"
                 onClick={() => setSelectedId(session.id)}
               >
-                <span className="tier">{session.watchTier}</span>
+                <span className="tier">{tierLabels[session.watchTier] || session.watchTier}</span>
                 <h2>{session.title}</h2>
                 <p>{session.excerpt}</p>
                 <div className="card-meta">
                   <span>{session.track}</span>
-                  <span>rel {session.relevance}/5</span>
+                  <span>приоритет {session.relevance}/5</span>
                 </div>
               </button>
             ))}
@@ -276,7 +284,7 @@ export default function App() {
           {selected ? (
             <>
               <div className="detail-head">
-                <span className="tier">{selected.watchTier}</span>
+                <span className="tier">{tierLabels[selected.watchTier] || selected.watchTier}</span>
                 <h2>{selected.title}</h2>
                 <p>{selected.speakers || "Спикеры не указаны"}</p>
                 <div className="detail-actions">

@@ -1,6 +1,6 @@
-# Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio
+# Agents Need Receipts, Not More Tool Calls
 
-- Спикеры: не указаны
+- Спикеры: Armanas Povilionis, Alithea Bio
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=Q9ycQHbDdJs)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

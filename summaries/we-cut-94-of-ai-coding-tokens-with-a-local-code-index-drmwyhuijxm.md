@@ -1,6 +1,6 @@
-# We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco
+# We Cut 94% of AI Coding Tokens With a Local Code Index
 
-- Спикеры: не указаны
+- Спикеры: Rajkumar Sakthivel, Tesco
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=dRmWYHuIJxM)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -27,7 +27,7 @@
 - Фреймворки/продукты: FastAPI (тестовый проект), CCE (опенсорсная команда для проверки).  
 - Подходы: локальный слой поиска, разбиение кода на функции/классы, гибридный поиск, сжатие через заголовки функций, граф вызовов, динамический скоринг.
 
-5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте  
+## 5. Что полезно разработчику
 Идея локального семантического индекса с двойным поиском прямо применима в developer tools и observability: можно встроить быстрый поисковый слой для AI-агентов, сократив латентность и стоимость вызовов. Метод скоринга (0,4 мс) подходит для evals и harness, где важна скорость без лишних AI-обращений.
 
 6. Что можно применить в агентных продуктах  

@@ -1,6 +1,6 @@
-# Turbocharge Your Agent's Retrieval with TurboQuant - Shashi Jagtap, Superagentic AI
+# Turbocharge Your Agent's Retrieval with TurboQuant
 
-- Спикеры: не указаны
+- Спикеры: Shashi Jagtap, Superagentic AI
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=tB9RKTrU-Ig)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -28,7 +28,7 @@
 **Методы:** TurboQuant (Polar Quant + QJL), скалярное квантование, контекстная компактизация, офлоадинг, FP8.  
 **Компания/вендор:** Google Research, Superagentic AI.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте  
+## 5. Что полезно разработчику
 Прямых упоминаний агентном продукте или специфических инструментов (harness, sandboxes, evals) нет. Однако сжатие индексов и KV-кеша напрямую применимо к любым агентам, работающим с векторным поиском, включая браузерные и офисные сценарии, где критично потребление памяти.
 
 ## 6. Что можно применить в агентных продуктах  

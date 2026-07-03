@@ -1,6 +1,6 @@
-# Every Solo Agent Builder Eventually Reinvents a Worse Version of CI/CD - Sumaiya Shrabony
+# Every Solo Agent Builder Eventually Reinvents a Worse Version of CI/CD
 
-- Спикеры: не указаны
+- Спикеры: Sumaiya Shrabony
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=WLXxTaPagA8)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -25,7 +25,7 @@
 ## 4. Упомянутые инструменты, фреймворки, компании, продукты и подходы  
 Конкретные платформы не названы. Упомянуты подходы: regression testing, CI monitoring, contract testing, staging environments, audit trails, а также концепции output contracts и gate-based конвейерs.
 
-## 5. Что полезно разработчику (AI-агенты, harness, sandboxes и др.)  
+## 5. Что полезно разработчику
 Прямых упоминаний нет, но концепция контрактных гейтов прямо ложится на evals, observability и harness для любых агентов — особенно в цепочках с несколькими навыками, где результат должен проходить несколько барьеров перед «отгрузкой».
 
 ## 6. Что можно применить в агентных продуктах  

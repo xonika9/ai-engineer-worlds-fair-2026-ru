@@ -1,6 +1,6 @@
-# The Factory That Dreams: 39 AI Agents, No Framework - Rushabh Doshi, Machinecraft
+# The Factory That Dreams: 39 AI Agents, No Framework
 
-- Спикеры: не указаны
+- Спикеры: Rushabh Doshi, Machinecraft
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=jtzh-GBXBWc)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -34,7 +34,7 @@
 - Мониторинг для отслеживания «мыслей» системы.
 - 213 инструментов, доступных через один протокол.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 - **Многоагентная архитектура**: чёткое разделение ролей (один агент — одна задача) и их координация через внутренние «совещания».
 - **Memory layers**: salience gate, эпизодическая память и цикл сна как способ борьбы с забыванием контекста — прямое применение в браузерных/офисных агентах, где длинные сессии быстро размывают контекст.
 - **Tool execution**: 213 инструментов по одному протоколу — урок для построения extensible tool harness; все инструменты сперва создают черновик, санкционирует человек (принцип «draft, human sends»).

@@ -1,6 +1,6 @@
-# The AI bugpocalypse is here. Now what? - Jack Cable, Corridor
+# The AI bugpocalypse is here. Now what?
 
-- Спикеры: не указаны
+- Спикеры: Jack Cable, Corridor
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=7JgIS42mz7U)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -36,7 +36,7 @@
 - Rust, Go (memory-safe языки), Android (кейс Google)
 - Конгресс США, рекомендации спикера по безопасности
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 
 - Контекстные баги (authorization logic, business logic) — самая сложная зона: модель не знает ваших проприетарных правил. Это ключевая брешь для студийных AI-агентов.
 - Идея pre-PR security ограничения и мониторинга того, как именно агенты используются, прямо применима к observability и tool execution.

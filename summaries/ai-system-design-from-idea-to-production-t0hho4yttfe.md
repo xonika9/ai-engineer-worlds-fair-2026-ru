@@ -1,6 +1,6 @@
-# AI System Design: From Idea to Production - Apoorva Joshi, MongoDB
+# AI System Design: From Idea to Production
 
-- Спикеры: не указаны
+- Спикеры: Apoorva Joshi, MongoDB
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=T0HhO4YtTfE)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -28,7 +28,7 @@ Apoorva Joshi (MongoDB) на примере системы проверки ме
 ## Упомянутые инструменты, фреймворки, компании, продукты и подходы  
 MongoDB, Voyage AI, RAG, AI-агенты, agentic systems, управляемые рабочий процесс (control flow), LLM как роутер, human‑in‑the‑loop, fine‑tuning, векторный/гибридный поиск, реранкинг, семантический кэш, Confluence (хранение PDF‑гайдлайнов), структурированные выходы, ограничения (проверка входов/выходов), GenAI Cookbook от MongoDB. Прямых имён конкурентов или закрытых платформ не называет.
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте  
+## Что полезно разработчику
 Доклад даёт системный подход к проектированию агентных систем: начинать с не‑агентного конвейера, вводить роутинг и автономность только по результатам оценки. Подход к классификации роли AI (дополнительный/критичный, реактивный/проактивный) помогает определить, нужен ли агент вообще. Для observability и evals — конкретные метрики: claim rejection rate, missing citation rate, faithfulness, override rate. Прямых упоминаний браузерных/офисных агентов, harness, sandboxes, tool execution или агентном продукте нет, но методология применима к песочницам и инструментам выполнения как часть controlled рабочий процесс.
 
 ## Что можно применить в агентных продуктах  

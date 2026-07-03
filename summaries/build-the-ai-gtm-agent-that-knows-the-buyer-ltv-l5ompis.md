@@ -1,6 +1,6 @@
-# Build the AI GTM Agent That Knows the Buyer - Dr. Sajjan Kanukolanu, Position2 (Position Squared)
+# Build the AI GTM Agent That Knows the Buyer
 
-- Спикеры: не указаны
+- Спикеры: Dr. Sajjan Kanukolanu, Position2 (Position Squared)
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=ltv-L5oMPIs)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -32,7 +32,7 @@
 
 HubSpot, Slack, LinkedIn как ключевой источник социальных сигналов; концепции Knowledge Base, ICP scoring, Context Graph, Alert / Routing Logic; несколько анонимайзеров для повышения точности (company ~70%, individual ~15-20%); собственное решение Position Squared — Intelligence Dashboard с разделами Anonymous Visitors, LinkedIn Intelligence, Hot Signals.
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 
 Подход с конвейером агентов (деанонимизация → фильтрация → поиск совпадений → действие) напрямую применим к браузерным и офисным AI-агентам. Особенно ценен наблюдаемый dashboard для observability всего конвейера: поломку отдельного агента видно и можно аудировать. Многосоставная enrichment-логика (несколько поставщиков одновременно) — хорошая схема для tool execution.
 

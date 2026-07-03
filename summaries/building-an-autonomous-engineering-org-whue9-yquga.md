@@ -1,6 +1,6 @@
-# Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation
+# Building an Autonomous Engineering Org
 
-- Спикеры: не указаны
+- Спикеры: Angie Jones, Agentic AI Foundation
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=whue9_YquGA)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -33,7 +33,7 @@
 - Файлы репозитория: agents.md, claude.md, rules files, slash-команды, agent skills.  
 - Инфраструктура: облачные workspace’ы для изолированного выполнения агентов; «мировая модель» кодовой базы на основе анализа 25 000 репозиториев.
 
-5. **Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте**  
+## 5. Что полезно разработчику
 - *AI-агенты* — модель зрелости и правило 1% для внедрения.  
 - *Sandboxes* — изолированные облачные workspace’ы для параллельного запуска агентов.  
 - *Tool execution* — интеграция агентов через MCP, slash-команды и навыки агентов.  

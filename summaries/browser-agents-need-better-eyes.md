@@ -1,6 +1,6 @@
-# Browser Agents Don't Need Better Models. They Need Better Eyes. - Kushan Raj, ARK
+# Browser Agents Don't Need Better Models. They Need Better Eyes.
 
-- Спикеры: не указаны
+- Спикеры: Kushan Raj, ARK
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=JnubYCYunk8)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

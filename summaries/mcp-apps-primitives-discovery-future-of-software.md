@@ -1,6 +1,6 @@
-# MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc
+# MCP Apps: Primitives, discovery, and the Future of Software
 
-- Спикеры: не указаны
+- Спикеры: Pietro Zullo, Manufact, Inc
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=sAOBXCDiDOs)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -30,7 +30,7 @@
 - Платформы-магазины: Character AI, Cloud stores (Claude, Cursor, ChatGPT).
 - Подход: «AI apps are the new browsers, MCP apps are the new websites» (цитата Пола Грэма).
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 В докладе напрямую не затрагиваются evals/observability, но есть детали, полезные для агентных систем: выполнение инструментов через виджеты, изолированное sandbox-окружение (iframe), возможность вызова дополнительных инструментов из UI, разделение приватного контекста и состояния модели. Подход с магазинами и динамическим обнаружением может служить моделью дистрибуции для браузерных или офисных агентов.
 
 ## Что можно применить в агентных продуктах

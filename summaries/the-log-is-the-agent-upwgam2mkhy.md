@@ -1,6 +1,6 @@
-# The Log Is The Agent - Ishaan Sehgal, Omnara
+# The Log Is The Agent
 
-- Спикеры: не указаны
+- Спикеры: Ishaan Sehgal, Omnara
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=UPwGaM2MKHY)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

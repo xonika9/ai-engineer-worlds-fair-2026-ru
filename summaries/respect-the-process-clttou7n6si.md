@@ -1,6 +1,6 @@
-# Respect The Process - Andrew Dumit, Watershed Technology Inc.
+# Respect The Process
 
-- Спикеры: не указаны
+- Спикеры: Andrew Dumit, Watershed Technology Inc.
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=CLttOU7n6sI)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -29,7 +29,7 @@
 - Компании: Watershed Technology Inc. (sustainability AI platform).
 - Подходы: constraining effects not expression, few‑shot prompting, prompt engineering, eval-наборы, графовое представление цепочек поставок.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 - Идея разделения reasoning (свободный код) и guarded effects (SDK + контролируемое исполнение) прямо применима при построении harness для агентов.
 - Детерминированное исполнение как «песочница» даёт observability: можно перехватить галлюцинации и неверные завершения.
 - Генерация review artifact — готовая модель observability для пользователей, не читающих код.

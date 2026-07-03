@@ -1,6 +1,6 @@
-# Frontier results, on device - RL Nabors, Arize
+# Frontier results, on device
 
-- Спикеры: не указаны
+- Спикеры: RL Nabors, Arize
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=fWXJM-J0ZB8)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -35,7 +35,7 @@
 - **Mima** — PWA-клиент соцсетей.
 - **Веб-стандарты:** web.dev, Mozilla, W3C.
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 
 - **Harness:** Goose показан как пример агентской обвязки для локальных моделей.
 - **Evals и observability:** Phoenix — готовый инструмент для возможность- и regression-эвалов; можно встроить CI/CD-подобные проверки, чтобы смена промпта или модели не ломала агентное поведение.

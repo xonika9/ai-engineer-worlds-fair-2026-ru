@@ -1,6 +1,6 @@
-# Your AI Product Will Fail Unless You Can Explain It - Veronica Hylak, Hey AI
+# Your AI Product Will Fail Unless You Can Explain It
 
-- Спикеры: не указаны
+- Спикеры: Veronica Hylak, Hey AI
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=d_Ftrl3vfV0)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -30,7 +30,7 @@
 - Подход: трёхфазное повествование (рана → щелчок → трансформация).  
 - Другие конкретные инструменты, фреймворки или компании не называются.
 
-5. **Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте**  
+## 5. Что полезно разработчику
 Прямых отсылок к перечисленным технологиям нет. Главная ценность — метод создания истории, который можно применить для объяснения ценности агентов, observability-платформ и developer tools: начинать с боли пользователя, делать продукт понятным через бытовую метафору и показывать измеримую трансформацию.
 
 6. **Что можно применить в агентных продуктах**  

@@ -1,6 +1,6 @@
-# Why Your Agent Disagrees With Itself (And What To Do About It) - Diane Lin, Datadog
+# Why Your Agent Disagrees With Itself (And What To Do About It)
 
-- Спикеры: не указаны
+- Спикеры: Diane Lin, Datadog
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=wEc9aG7cRQc)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -31,7 +31,7 @@
 - Активное обучение (active learning), query by committee, uncertainty sampling
 - Семантическая (semantic) и эпизодическая (episodic) память для агентов
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 
 - Метод поиска «серых зон» применим для *evals*: оценивать качество агента не по одному прогону, а по нескольким, усредняя или отслеживая разногласия.
 - Эпизодическая память — кейс-база для *браузерных/офисных агентов*, особенно когда нужно автоматически разруливать повторяющиеся сценарии без дополнительного разбора.

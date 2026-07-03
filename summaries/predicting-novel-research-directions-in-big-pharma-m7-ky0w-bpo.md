@@ -1,6 +1,6 @@
-# Predicting Novel Research Directions in Big Pharma - Vasilije Markovic, cognee
+# Predicting Novel Research Directions in Big Pharma
 
-- Спикеры: не указаны
+- Спикеры: Vasilije Markovic, cognee
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=M7-KY0W-BPo)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -26,7 +26,7 @@
 - **Технологии/подходы**: агентные системы (agentic system), memory layer, формальные онтологии, генерация знаний языковыми моделями (LM generated knowledge), графовые эмбеддинги (deep graph embedding), синтетические данные для валидации.
 - **Результаты**: готовится совместный постер и статья.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 - Напрямую затронуты только AI-агенты: показана архитектура с memory layer и мультишаговой валидацией.
 - Элементы evals и observability: полная объяснимость, синтетическая и кросс-валидация, оценка новизны предсказаний.
 - Темы браузерных/офисных агентов, harness, sandboxes, tool execution, developer tools и агентном продукте в докладе не раскрыты.

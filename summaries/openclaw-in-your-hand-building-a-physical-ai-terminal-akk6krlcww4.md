@@ -1,6 +1,6 @@
-# OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack
+# OpenClaw in Your Hand: Building a Physical AI Terminal
 
-- Спикеры: не указаны
+- Спикеры: Lech Kalinowski, Callstack
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=akk6KRlcwW4)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -24,7 +24,7 @@
 ## 4. Упомянутые инструменты, фреймворки, компании, продукты и подходы
 OpenClaw, Nvidia DGX Spark, TensorRT serving, OpenAI-style API‑прокси, ESP32 (dual‑core), OLED‑дисплей, бистабильная электронная бумага, литий‑полимерный аккумулятор, I2C, предвыделенные буферы, 1‑битный рендеринг, без malloc, без markdown‑движка. Компания: Callstack.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 Прямо затронуты только **AI-агенты** (OpenClaw) и **tool execution** (пример выполнения команды *«write a Java example and store it on my local machine»*). Остальные темы (harness, sandboxes, evals, observability) в докладе не раскрыты.
 
 ## 6. Что можно применить в агентных продуктах

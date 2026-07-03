@@ -1,6 +1,6 @@
-# A Song of Types and Agents - Roberto Stagi, Ratel
+# A Song of Types and Agents
 
-- Спикеры: не указаны
+- Спикеры: Roberto Stagi, Ratel
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=UlFB6efYN5Q)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -35,9 +35,9 @@
 - Компании: Anthropic (купили Bun), Ratel (компания спикера)
 - Подходы: единый стек, единая типовая система (Zod), разделение training-слоя и application-слоя
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 
-Доклад напрямую не затрагивает браузерные/офисные агенты, sandboxes, harness, evals или observability. Однако тренд на массовое строительство агентов на TypeScript подтверждает, что инструменты и платформы агентов (включая среды исполнения и developer tools) будут появляться именно в этой экосистеме. Это значит, что для агентном продукте может быть стратегически выгодно ориентироваться на TypeScript-агентов, их tool execution и sandbox-среды, а также учитывать единую типовую безопасность.
+Доклад напрямую не затрагивает браузерные/офисные агенты, sandboxes, harness, evals или observability. Однако тренд на массовое строительство агентов на TypeScript подтверждает, что инструменты и платформы агентов (включая среды исполнения и developer tools) будут появляться именно в этой экосистеме. Это значит, что для агентного продукта может быть стратегически выгодно ориентироваться на TypeScript-агентов, их tool execution и sandbox-среды, а также учитывать единую типовую безопасность.
 
 ## Что можно применить в агентных продуктах
 

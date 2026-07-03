@@ -1,6 +1,6 @@
-# Beyond the Harness: A Journey Towards Adaptative Engineering - Rajiv Chandegra, Annicha Labs
+# Beyond the Harness: A Journey Towards Adaptative Engineering
 
-- Спикеры: не указаны
+- Спикеры: Rajiv Chandegra, Annicha Labs
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=qdZzND79mcg)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -32,8 +32,8 @@
 - Компания: Annicha Labs.
 - Подходы: фабричный (fixed harness), адаптивная инженерия, сложностное мышление (complexity science), горизонтальный vs вертикальный интеллект.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
-- Принцип динамически формирующейся упряжи напрямую применим к orchestration-движкам агентном продукте: роли агентов могут не задаваться статически, а проявляться через локальные взаимодействия и давление задач.
+## 5. Что полезно разработчику
+- Принцип динамически формирующейся упряжи напрямую применим к orchestration-движкам агентного продукта: роли агентов могут не задаваться статически, а проявляться через локальные взаимодействия и давление задач.
 - Ограничения (constraints) — это новый способ конфигурации harness; вместо фиксированных конвейеров можно использовать сенсинг эмерджентных структур для observability.
 - Идея адаптивности в рантайме расширяет концепцию «песочниц»: окружение может менять правила, вознаграждая полезные связи и ослабляя лишние.
 

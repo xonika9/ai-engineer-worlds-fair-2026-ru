@@ -1,6 +1,6 @@
-# Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI
+# Turn 10,994 Notes Into Memory
 
-- Спикеры: не указаны
+- Спикеры: Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=ZRM_TfEZcIo)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -27,12 +27,12 @@
 ## 4. Упомянутые инструменты, фреймворки, компании, продукты и подходы
 Obsidian, Readwise, Notion, Google Drive, Granola, Apple Notes, Cloud Code (Claude Code), Codex, Bright Data, Gemini (grounded in Google), NotebookLM, open‑source harnesses: open code, Pi, Hermes, метод PARA (Tiago Forte), multi‑agent deep research, index.yaml, AI Research OS (репозиторий).
 
-## 5. Что полезно разработчику: AI-агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 - AI-агенты и harness: подход с файловой вики и index.yaml прямо применим для лёгкой памяти агентов; анализ архитектур (open code, Pi, Hermes) дал готовые шаблоны песочниц и permission flow.
 - Sandboxes & tool execution: система умеет клонировать репозитории и исследовать, как устроены песочницы, — можно повторно использовать эти «сырые» разборы.
 - Developer tools: плагины для Cloud Code легко адаптируются под любой харнес; вся логика — цепочка промптов и файловых операций.
 - Evals & observability: прямых упоминаний нет, но прослеживание источников и лог вопросов дают основу для аудита решений агента.
-- агентном продукте: в докладе не упоминалась, однако идея легковесной индексируемой вики может заменить тяжёлые хранилища внутри студии.
+- Для агентного продукта: в докладе не упоминалась, однако идея легковесной индексируемой вики может заменить тяжёлые хранилища внутри студии.
 
 ## 6. Что можно применить в агентных продуктах
 - Внедрить файловую вики с `index.yaml` для управления знаниями проектов — агенты получат быстрый доступ к релевантным заметкам и снизят расход контекстного окна.

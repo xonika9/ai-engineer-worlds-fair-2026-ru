@@ -1,6 +1,6 @@
-# Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc
+# Research to Reality: Bringing Frontier ML Research to Production
 
-- Спикеры: не указаны
+- Спикеры: Vaidas Razgaitis, Higharc
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=OXMMN-XbxwA)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -29,7 +29,7 @@
 - **Подходы/паттерны**: монорепо микросервисов, Gateway-маршрутизация, многослойная архитектура (API → бизнес-логика → данные), Type contract между репозиториями.
 - Компания/продукт: Higharc (платформа для домостроения, handling spatial reasoning).
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 - **Harness/Microservices architecture**: паттерн монорепо с FastAPI-шлюзом и изолированными сервисами полезен для упаковки агентов как независимых микросервисов.
 - **Sandboxes/Tool execution**: запуск Jupyter-ноутбуков на Modal — пример чистой изолированной песочницы для GPU-вычислений без засорения прод-среды.
 - **Developer tools**: применение Graphite для stacked diff’ов ускоряет асинхронный ревью в студии.

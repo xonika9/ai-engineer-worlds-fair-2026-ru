@@ -1,6 +1,6 @@
-# The UX of AI: Making AI-Powered Apps Your Users Don't Hate - Kathryn Grayson Nanz, Progress Software
+# The UX of AI: Making AI-Powered Apps Your Users Don't Hate
 
-- Спикеры: не указаны
+- Спикеры: Kathryn Grayson Nanz, Progress Software
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=L3RuP_q8Bwc)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -34,8 +34,8 @@
 - **AI-агенты и браузерные/офисные агенты:** обязательный показ плана действий до запуска + emergency stop; прозрачный индикатор «сейчас управляет агент», чтобы не мешать и не путаться.
 - **Harness/sandboxes/tool execution:** undo/redo и чекпойнты как жёсткое требование, плюс маркировка изменённых файлов/строк; гранулярные разрешения на запуск скриптов.
 - **Developer tools:** стриминг генерации кода и «размышления вслух» — помогают дебажить логику AI.
-- **Evals/observability:** связка trust + clarity прямо указывает на necessity цепочек рассуждений и цитирования источников; observability для пользователя, а не только для разработчика.
-- **агентном продукте:** идея «не бросать пользователя с пустым полем» крайне применима — prompts as templates, guided flows.
+- **Evals/observability:** связка trust + clarity прямо указывает на необходимость цепочек рассуждений и цитирования источников; observability для пользователя, а не только для разработчика.
+- **Для агентного продукта:** идея «не бросать пользователя с пустым полем» крайне применима — шаблоны промптов и управляемые сценарии.
 
 ## 6. Что можно применить в агентных продуктах
 - **Onboarding через примеры:** заменить пустое поле ввода готовыми сценариями и шаблонами запросов, чтобы снизить порог входа.

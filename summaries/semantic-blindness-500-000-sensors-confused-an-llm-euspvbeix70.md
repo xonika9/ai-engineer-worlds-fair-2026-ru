@@ -1,6 +1,6 @@
-# Semantic Blindness: 500,000 Sensors Confused an LLM - Raahul Singh & Vanč Levstik, Phaidra
+# Semantic Blindness: 500,000 Sensors Confused an LLM
 
-- Спикеры: не указаны
+- Спикеры: Raahul Singh & Vanč Levstik, Phaidra
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=EUsPvBeIx70)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -33,7 +33,7 @@
 - Рабочее решение: linearizer, planner LLM со структурированным выводом, deterministic resolver, pre-indexed subtrees, операции над множествами, поиск по шаблонам имён.
 - Концепция Software 1.0 / 3.0 А. Карпати.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 - Паттерн «планировщик + детерминированный резольвер» идеален для навигации по большим DOM‑деревьям: LLM выдаёт scope и фильтр, а поиск выполняется через XPath/селекторы без сканирования тысяч элементов.
 - Linearizer можно использовать для сжатого описания UI‑иерархии в промте, экономя токены.
 - Строгий eval-конвейер (замер точности и стоимости на реальных кейсах) — прямой рецепт для observability и тестирования агентов в агентном продукте.

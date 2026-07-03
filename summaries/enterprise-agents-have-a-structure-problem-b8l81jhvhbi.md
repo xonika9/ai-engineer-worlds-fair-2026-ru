@@ -1,6 +1,6 @@
-# Enterprise Agents Have a Structure Problem - Ishita Daga, Tesla
+# Enterprise Agents Have a Structure Problem
 
-- Спикеры: не указаны
+- Спикеры: Ishita Daga, Tesla
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=B8l81jhvHbI)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -35,7 +35,7 @@
 - Agent memory: Mem0, `memory.md`.
 - Meta (упоминание frontier labs, работающих над preference).
 
-## Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## Что полезно разработчику
 
 - Иерархия источников устраняет неоднозначность при обращении агентов к документам и сервисам.
 - Жизненный цикл контекста и feedback loop прямо применимы к observability и evals агентов.

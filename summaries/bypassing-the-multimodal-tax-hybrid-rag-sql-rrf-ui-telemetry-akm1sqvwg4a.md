@@ -1,6 +1,6 @@
-# Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry - Abed Matini, Ogilvy
+# Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry
 
-- Спикеры: не указаны
+- Спикеры: Abed Matini, Ogilvy
 - Трек: Online Track
 - Видео: [YouTube](https://www.youtube.com/watch?v=Akm1sqvWG4A)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
@@ -30,7 +30,7 @@
 - BM25, Reciprocal Rank Fusion (RRF), гибридный поиск, чанкинг по заголовкам/параграфам/512 символов/предложениям.
 - Подходы: «markdown first», агенты как Python-функции, ограничения через intent rejects и term dictionaries.
 
-## 5. Что полезно разработчику: AI-агенты, браузерные и офисные агенты, harness, sandboxes, tool execution, developer tools, evals, observability, агентном продукте
+## 5. Что полезно разработчику
 - Модель агентов на Python-функциях применима для исполнения инструментов в песочницах — убирает задержку и галлюцинации.
 - Схема observability с LangFuse подходит для evals и мониторинга агентных цепочек.
 - Гибридный поиск и RRF можно использовать в офисных/браузерных агентах для точного извлечения из баз знаний.
