@@ -340,7 +340,15 @@ export default function App() {
                 <p>{session.excerpt}</p>
                 <div className="card-meta">
                   <span>{session.track}</span>
-                  <span>приоритет {session.relevance}/5</span>
+                  <span
+                    className="relevance"
+                    title={`Релевантность ${session.relevance}/5`}
+                    aria-label={`Релевантность ${session.relevance} из 5`}
+                  >
+                    {[1, 2, 3, 4, 5].map((dot) => (
+                      <i key={dot} className={dot <= session.relevance ? "on" : ""} />
+                    ))}
+                  </span>
                 </div>
               </button>
             ))}
