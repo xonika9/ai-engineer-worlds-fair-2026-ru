@@ -134,6 +134,14 @@ h1 {
   line-height: 1.45;
 }
 
+.status-panel a {
+  color: #d7e4c1;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  white-space: nowrap;
+}
+
 .status-panel dl {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

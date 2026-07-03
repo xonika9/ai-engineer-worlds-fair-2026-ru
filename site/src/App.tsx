@@ -248,7 +248,16 @@ export default function App() {
           </div>
 
           <div className="status-panel" aria-label="Статус обработки">
-            <p>{data.notice}</p>
+            <p>
+              {data.notice}{" "}
+              <a
+                href="https://github.com/xonika9/ai-engineer-worlds-fair-2026-ru/blob/main/missing-sessions.md"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Каких докладов пока нет
+              </a>
+            </p>
             <dl>
               <div>
                 <dt>{data.stats.summaries}</dt>
@@ -343,13 +352,6 @@ export default function App() {
               <strong>{filtered.length}</strong>
               <span>из {data.sessions.length} саммари</span>
             </div>
-            <a
-              href="https://github.com/xonika9/ai-engineer-worlds-fair-2026-ru/blob/main/missing-sessions.md"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Каких докладов пока нет
-            </a>
           </div>
 
           <div className="cards">
