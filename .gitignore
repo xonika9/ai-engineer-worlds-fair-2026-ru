@@ -1,0 +1,23 @@
+# OS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+
+# Local/private source material
+raw/
+transcripts/
+*.vtt
+*.srt
+*.mp3
+*.mp4
+*.m4a
+*.wav
+*.json
+*.ndjson
+
+# Build/cache
+node_modules/
+.cache/
+.tmp/
