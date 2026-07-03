@@ -5,6 +5,7 @@ export type Section = {
 
 export type Timestamp = {
   time: string;
+  endTime?: string;
   label: string;
 };
 

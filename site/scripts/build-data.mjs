@@ -104,12 +104,8 @@ function parseSummary(markdown, fallback) {
   const videoMatch = markdown.match(/- Видео:\s+\[YouTube\]\(([^)]+)\)/);
   const timestampLines = markdown
     .split(/\r?\n/)
-    .filter((line) => /^-\s+(?:\[)?\d+:\d{2}/.test(line.trim()))
-    .map((line) => {
-      const cleaned = line.replace(/^-\s+/, "").replace(/^\[([0-9:]+)\]/, "$1").trim();
-      const match = cleaned.match(/^([0-9:]+)\s+[—-]\s+(.+)$/);
-      return match ? { time: match[1], label: match[2] } : { time: cleaned, label: "" };
-    });
+    .map(parseTimestampLine)
+    .filter(Boolean);
 
   const usefulSection =
     sections.find((section) => /полезно|применить/i.test(section.title)) || sections[0];
@@ -125,6 +121,29 @@ function parseSummary(markdown, fallback) {
     })),
     excerpt,
     timestamps: timestampLines,
+  };
+}
+
+function parseTimestampLine(line) {
+  const trimmed = line.trim();
+  if (!trimmed.startsWith("- ")) return null;
+
+  const cleaned = trimmed
+    .replace(/^-\s+/, "")
+    .replace(/^\*\*([^*]+)\*\*/, "$1")
+    .trim();
+  const match = cleaned.match(
+    /^\[?(\d{1,2}:\d{2}(?::\d{2})?)(?:\s*[-–—]\s*(\d{1,2}:\d{2}(?::\d{2})?))?\]?\s*(?:[-–—:]\s*)?(.+)?$/,
+  );
+  if (!match) return null;
+
+  const [, time, endTime, rawLabel = ""] = match;
+  const label = rawLabel.replace(/\*\*/g, "").trim();
+
+  return {
+    time,
+    ...(endTime ? { endTime } : {}),
+    label,
   };
 }
 

@@ -3,6 +3,7 @@ import {
   ArrowSquareOut,
   GithubLogo,
   MagnifyingGlass,
+  TelegramLogo,
   SlidersHorizontal,
   X,
 } from "@phosphor-icons/react";
@@ -55,6 +56,10 @@ function youtubeWithTime(url: string, time: string) {
     parts.length === 3 ? parts[0] * 3600 + parts[1] * 60 + parts[2] : parts[0] * 60 + parts[1];
   const separator = url.includes("?") ? "&" : "?";
   return `${url}${separator}t=${seconds}s`;
+}
+
+function timestampLabel(timestamp: { time: string; endTime?: string }) {
+  return timestamp.endTime ? `${timestamp.time}-${timestamp.endTime}` : timestamp.time;
 }
 
 export default function App() {
@@ -143,15 +148,19 @@ export default function App() {
               <ArrowSquareOut size={18} weight="bold" />
               YouTube
             </a>
+            <a href="https://t.me/+Rd60cz14OZI3OGMy" target="_blank" rel="noreferrer">
+              <TelegramLogo size={18} weight="bold" />
+              Telegram
+            </a>
           </div>
         </nav>
 
         <section className="hero-grid">
           <div>
             <p className="kicker">Русскоязычный навигатор</p>
-            <h1>AI Engineer World's Fair 2026 без восьмичасового просмотра вслепую</h1>
+            <h1>AI Engineer World's Fair 2026: навигатор по записям</h1>
             <p className="lead">
-              Поиск, темы, саммари и таймкоды по публично доступным записям конференции.
+              Поиск, темы, саммари и таймкоды по публично доступным видео конференции.
             </p>
           </div>
 
@@ -331,7 +340,7 @@ export default function App() {
                       rel="noreferrer"
                       key={`${selected.id}-${timestamp.time}-${timestamp.label}`}
                     >
-                      <strong>{timestamp.time}</strong>
+                      <strong>{timestampLabel(timestamp)}</strong>
                       <span>{timestamp.label}</span>
                     </a>
                   ))}
