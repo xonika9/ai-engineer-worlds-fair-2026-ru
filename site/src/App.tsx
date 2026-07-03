@@ -23,10 +23,10 @@ const topicLabels: Record<string, string> = {
 };
 
 const tierLabels: Record<string, string> = {
-  "Must watch": "Смотреть",
-  "Worth skimming": "Просмотреть",
-  "Only if needed": "По необходимости",
-  "All summaries": "Саммари",
+  "Must watch": "Главное",
+  "Worth skimming": "Полезное",
+  "Only if needed": "Нишевое",
+  "All summaries": "Справочно",
 };
 
 function sectionText(section?: Section) {
