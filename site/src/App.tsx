@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type ReactElement, type ReactNode } from "react";
 import {
   ArrowSquareOut,
   GithubLogo,
@@ -34,19 +34,78 @@ function sectionText(section?: Section) {
   return section?.body.replace(/\n+/g, "\n").trim() || "";
 }
 
+const inlinePattern = /\*\*([^*]+)\*\*|\*([^*\n]+)\*|`([^`]+)`|\[([^\]]+)\]\(([^)]+)\)/g;
+
+function renderInline(text: string): ReactNode[] {
+  const nodes: ReactNode[] = [];
+  let lastIndex = 0;
+  let key = 0;
+  let match: RegExpExecArray | null;
+
+  inlinePattern.lastIndex = 0;
+  while ((match = inlinePattern.exec(text))) {
+    if (match.index > lastIndex) nodes.push(text.slice(lastIndex, match.index));
+    if (match[1] !== undefined) nodes.push(<strong key={key++}>{match[1]}</strong>);
+    else if (match[2] !== undefined) nodes.push(<em key={key++}>{match[2]}</em>);
+    else if (match[3] !== undefined) nodes.push(<code key={key++}>{match[3]}</code>);
+    else if (match[4] !== undefined)
+      nodes.push(
+        <a key={key++} href={match[5]} target="_blank" rel="noreferrer">
+          {match[4]}
+        </a>,
+      );
+    lastIndex = inlinePattern.lastIndex;
+  }
+  if (lastIndex < text.length) nodes.push(text.slice(lastIndex));
+
+  return nodes;
+}
+
 function renderMarkdownLite(text: string) {
-  return text.split(/\n+/).map((line, index) => {
-    const normalized = line
-      .replace(/\*\*([^*]+)\*\*/g, "$1")
-      .replace(/`([^`]+)`/g, "$1")
-      .replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1");
+  const lines = text
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .filter(Boolean);
 
-    if (normalized.startsWith("- ")) {
-      return <li key={`${line}-${index}`}>{normalized.slice(2)}</li>;
+  const blocks: ReactElement[] = [];
+  let list: { type: "ul" | "ol"; items: string[] } | null = null;
+  let key = 0;
+
+  const flush = () => {
+    if (!list) return;
+    const items = list.items.map((item, index) => <li key={index}>{renderInline(item)}</li>);
+    blocks.push(
+      list.type === "ol" ? <ol key={key++}>{items}</ol> : <ul key={key++}>{items}</ul>,
+    );
+    list = null;
+  };
+
+  for (const line of lines) {
+    const ordered = line.match(/^(\d{1,2})[.)]\s+(.*)$/);
+    const unordered = line.match(/^[-*•]\s+(.*)$/);
+
+    if (ordered) {
+      if (!list || list.type !== "ol") {
+        flush();
+        list = { type: "ol", items: [ordered[2]] };
+      } else {
+        list.items.push(ordered[2]);
+      }
+    } else if (unordered) {
+      if (!list || list.type !== "ul") {
+        flush();
+        list = { type: "ul", items: [unordered[1]] };
+      } else {
+        list.items.push(unordered[1]);
+      }
+    } else {
+      flush();
+      blocks.push(<p key={key++}>{renderInline(line)}</p>);
     }
+  }
+  flush();
 
-    return <p key={`${line}-${index}`}>{normalized}</p>;
-  });
+  return blocks;
 }
 
 function youtubeWithTime(url: string, time: string) {
