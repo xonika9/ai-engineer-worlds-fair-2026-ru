@@ -4,6 +4,8 @@
 
 AI Engineer World's Fair 2026 — конференция про практическую AI-инженерию: агентные системы, coding agents, harness engineering, evals, наблюдаемость, инструменты разработчика, продакшен и продуктовые сценарии вокруг современных моделей.
 
+Веб-версия навигатора: https://xonika9.github.io/ai-engineer-worlds-fair-2026-ru/
+
 ## Что внутри
 
 - [watchlist.md](watchlist.md) — с чего начать и что можно пропустить.

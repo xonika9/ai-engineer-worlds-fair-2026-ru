@@ -16,8 +16,18 @@ transcripts/
 *.wav
 *.json
 *.ndjson
+!site/package.json
+!site/package-lock.json
+!site/tsconfig.json
+!site/tsconfig.node.json
+!site/public/data/
+!site/public/data/*.json
 
 # Build/cache
 node_modules/
 .cache/
 .tmp/
+dist/
+*.tsbuildinfo
+site/vite.config.js
+site/vite.config.d.ts
