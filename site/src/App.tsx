@@ -411,7 +411,13 @@ export default function App() {
                 ))}
               </div>
 
-              <SummaryBlock title="Коротко" text={selected.excerpt} />
+              <SummaryBlock
+                title="Коротко"
+                text={
+                  sectionText(selected.sections.find((section) => /о ч[её]м/i.test(section.title))) ||
+                  selected.excerpt
+                }
+              />
               <SummaryBlock
                 title="Главные идеи"
                 text={sectionText(selected.sections.find((section) => /главные идеи/i.test(section.title)))}

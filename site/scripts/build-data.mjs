@@ -73,6 +73,13 @@ function slugFromPath(summaryPath) {
   return path.basename(summaryPath, ".md");
 }
 
+function truncateAtWord(text, max) {
+  if (text.length <= max) return text;
+  const clipped = text.slice(0, max);
+  const lastSpace = clipped.lastIndexOf(" ");
+  return `${clipped.slice(0, lastSpace > 40 ? lastSpace : max).replace(/[\s.,;:—–-]+$/, "")}…`;
+}
+
 function stripMarkdown(value) {
   return value
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
@@ -108,9 +115,9 @@ function parseSummary(markdown, fallback) {
     .map(parseTimestampLine)
     .filter(Boolean);
 
-  const usefulSection =
-    sections.find((section) => /полезно|применить/i.test(section.title)) || sections[0];
-  const excerpt = stripMarkdown(usefulSection?.body || sections[0]?.body || "").slice(0, 280);
+  const overviewSection =
+    sections.find((section) => /о ч[её]м/i.test(section.title)) || sections[0];
+  const excerpt = truncateAtWord(stripMarkdown(overviewSection?.body || sections[0]?.body || ""), 260);
 
   return {
     title,
