@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState, type ReactElement, type ReactNode } from "react";
+import { useEffect, useMemo, useRef, useState, type ReactElement, type ReactNode } from "react";
 import {
   ArrowSquareOut,
   GithubLogo,
@@ -128,14 +128,29 @@ export default function App() {
   const [tier, setTier] = useState("all");
   const [sort, setSort] = useState("priority");
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [loadError, setLoadError] = useState(false);
+  const detailRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}data/sessions.json`)
-      .then((response) => response.json())
+      .then((response) => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.json();
+      })
       .then((payload: SiteData) => {
         setData(payload);
-      });
+      })
+      .catch(() => setLoadError(true));
   }, []);
+
+  const selectSession = (id: string) => {
+    setSelectedId(id);
+    if (window.innerWidth <= 1160) {
+      detailRef.current?.scrollIntoView({ block: "start" });
+    } else {
+      detailRef.current?.scrollTo({ top: 0 });
+    }
+  };
 
   const filtered = useMemo(() => {
     if (!data) return [];
@@ -175,6 +190,16 @@ export default function App() {
     return filtered.find((session) => session.id === selectedId) || filtered[0] || null;
   }, [data, filtered, selectedId]);
 
+  if (loadError) {
+    return (
+      <main className="loading-shell">
+        <div className="loading-card">
+          <p>Не удалось загрузить данные навигатора. Обнови страницу.</p>
+        </div>
+      </main>
+    );
+  }
+
   if (!data) {
     return (
       <main className="loading-shell">
@@ -190,7 +215,7 @@ export default function App() {
     <main className="app-shell">
       <header className="hero">
         <nav className="topbar" aria-label="Основная навигация">
-          <a className="brand" href="/">
+          <a className="brand" href={import.meta.env.BASE_URL}>
             AI Engineer WF2026 RU
           </a>
           <div className="nav-links">
@@ -323,7 +348,7 @@ export default function App() {
               target="_blank"
               rel="noreferrer"
             >
-              missing sessions
+              Каких докладов пока нет
             </a>
           </div>
 
@@ -333,7 +358,7 @@ export default function App() {
                 className={selected?.id === session.id ? "session-card active" : "session-card"}
                 key={session.id}
                 type="button"
-                onClick={() => setSelectedId(session.id)}
+                onClick={() => selectSession(session.id)}
               >
                 <span className="tier">{tierLabels[session.watchTier] || session.watchTier}</span>
                 <h2>{session.title}</h2>
@@ -355,7 +380,7 @@ export default function App() {
           </div>
         </section>
 
-        <article className="detail" aria-live="polite">
+        <article className="detail" aria-live="polite" ref={detailRef}>
           {selected ? (
             <>
               <div className="detail-head">

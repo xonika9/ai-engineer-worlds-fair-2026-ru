@@ -495,8 +495,18 @@ select {
 .empty-state,
 .loading-shell {
   display: grid;
-  min-height: 100dvh;
   place-items: center;
+}
+
+.loading-shell {
+  min-height: 100dvh;
+}
+
+.empty-state {
+  min-height: 320px;
+  padding: 40px 24px;
+  color: #55554d;
+  text-align: center;
 }
 
 .loading-card {
