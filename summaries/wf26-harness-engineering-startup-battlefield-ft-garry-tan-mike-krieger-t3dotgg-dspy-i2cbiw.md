@@ -1,4 +1,4 @@
-# WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy
+# WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg, DSPy
 
 - Спикеры: не указаны
 - Трек: Main livestream
