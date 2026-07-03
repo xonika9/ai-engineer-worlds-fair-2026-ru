@@ -6,7 +6,7 @@ AI Engineer World's Fair 2026 — конференция про практиче
 
 Веб-версия навигатора: https://xonika9.github.io/ai-engineer-worlds-fair-2026-ru/
 
-Telegram-канал: https://t.me/+Rd60cz14OZI3OGMy
+Telegram-канал: [Контролируемые галлюцинации](https://t.me/+Rd60cz14OZI3OGMy)
 
 ## Что внутри
 
