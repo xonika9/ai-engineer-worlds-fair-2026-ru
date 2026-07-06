@@ -1,12 +1,12 @@
 {
   "notice": "Обработано только то, что было публично доступно на YouTube на момент сбора, а не все выступления конференции.",
   "stats": {
-    "manifestRows": 726,
+    "manifestRows": 740,
     "summaries": 122,
     "processedYoutube": 122,
     "duplicates": 2,
     "unavailable": 1,
-    "missing": 491,
+    "missing": 505,
     "longStreamSegments": 55
   },
   "topics": [
