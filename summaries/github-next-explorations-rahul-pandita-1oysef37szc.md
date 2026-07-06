@@ -1,6 +1,6 @@
-# GitHub Next Explorations: Rahul Pandita
+# GitHub Next Explorations
 
-- Спикеры: не указаны
+- Спикеры: Rahul Pandita
 - Трек: Coding Agents @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=1oySeF37SZc)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

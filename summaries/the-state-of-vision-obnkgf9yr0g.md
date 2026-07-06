@@ -1,6 +1,6 @@
-# The State of Vision
+# Rewiring the State
 
-- Спикеры: Joseph Nelson
+- Спикеры: Eoin Mulgrew, No. 10 (Downing Street)
 - Трек: Vision & OCR
 - Видео: [YouTube](https://www.youtube.com/watch?v=ObNKGf9YR0g)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

@@ -1,6 +1,6 @@
-# Optimizing Open Models for Production Grade Inference
+# Optimizing inference for voice models in production
 
-- Спикеры: Sujee Maniyam; Dylan Bristot
+- Спикеры: Philip Kiely, Baseten
 - Трек: Expo Stage 1 NE
 - Видео: [YouTube](https://www.youtube.com/watch?v=gmTHs5T_YAE)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

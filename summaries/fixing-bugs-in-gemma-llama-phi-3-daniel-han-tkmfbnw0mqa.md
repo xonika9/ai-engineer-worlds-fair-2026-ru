@@ -1,6 +1,6 @@
-# Fixing bugs in Gemma, Llama, & Phi 3: Daniel Han
+# Fixing bugs in Gemma, Llama, & Phi 3
 
-- Спикеры: не указаны
+- Спикеры: Daniel Han
 - Трек: Open Models @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=TKmfBnW0mQA)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

@@ -1,6 +1,6 @@
-# Building in the Gemini Era – Kat Kampf & Ammaar Reshi, Google DeepMind
+# Building in the Gemini Era
 
-- Спикеры: не указаны
+- Спикеры: Kat Kampf & Ammaar Reshi, Google DeepMind
 - Трек: Google DeepMind @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=fgkXEIbZpGc)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

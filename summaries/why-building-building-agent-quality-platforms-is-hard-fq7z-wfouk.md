@@ -1,6 +1,6 @@
-# Why building building agent quality platforms is hard.
+# Why building eval platforms is hard
 
-- Спикеры: Hossein Niazmandi
+- Спикеры: Phil Hetzel, Braintrust
 - Трек: Expo Stage 2 NW
 - Видео: [YouTube](https://www.youtube.com/watch?v=_fQ7Z_Wfouk)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

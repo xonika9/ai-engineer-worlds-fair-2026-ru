@@ -1,6 +1,6 @@
-# The Half Life of Agent Infrastructure
+# The Agent Development Life Cycle
 
-- Спикеры: Ben Kus
+- Спикеры: Zack Reneau-Wedeen, Sierra
 - Трек: AI-Native Enterprises
 - Видео: [YouTube](https://www.youtube.com/watch?v=0vBKv9yAQi4)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

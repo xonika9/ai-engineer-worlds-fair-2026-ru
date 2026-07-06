@@ -1,6 +1,6 @@
-# Future-Proof Coding Agents – Bill Chen & Brian Fioca, OpenAI
+# Future-Proof Coding Agents
 
-- Спикеры: не указаны
+- Спикеры: Bill Chen & Brian Fioca, OpenAI
 - Трек: OpenAI @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=wVl6ZjELpBk)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

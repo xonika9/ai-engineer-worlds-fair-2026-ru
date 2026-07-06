@@ -1,6 +1,6 @@
-# Katelyn Lesse – Evolving Claude APIs for Agents, Anthropic
+# Evolving Claude APIs for Agents
 
-- Спикеры: не указаны
+- Спикеры: Katelyn Lesse, Anthropic
 - Трек: Anthropic @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=aqW68Is_Kj4)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

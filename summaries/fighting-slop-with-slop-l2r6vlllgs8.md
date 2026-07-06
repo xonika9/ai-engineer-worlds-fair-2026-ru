@@ -1,6 +1,6 @@
-# fighting slop with slop
+# Fighting AI with AI
 
-- Спикеры: Vaibhav Gupta
+- Спикеры: Lawrence Jones, Incident
 - Трек: Software Factories
 - Видео: [YouTube](https://www.youtube.com/watch?v=L2r6vLlLgs8)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

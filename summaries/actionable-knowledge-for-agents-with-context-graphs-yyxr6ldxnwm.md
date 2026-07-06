@@ -1,6 +1,6 @@
-# Actionable Knowledge For Agents With Context Graphs
+# Knowledge Graphs in Litigation Agents
 
-- Спикеры: Will Lyon
+- Спикеры: Tom Smoker, WhyHow
 - Трек: Expo Stage 2
 - Видео: [YouTube](https://www.youtube.com/watch?v=yYxr6LdXNWM)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

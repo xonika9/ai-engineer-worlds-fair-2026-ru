@@ -1,6 +1,6 @@
-# The Unreasonable Effectiveness of Prompt Learning – Aparna Dhinakaran, Arize
+# The Unreasonable Effectiveness of Prompt Learning
 
-- Спикеры: не указаны
+- Спикеры: Aparna Dhinakaran, Arize
 - Трек: Arize @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=pP_dSNz_EdQ)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

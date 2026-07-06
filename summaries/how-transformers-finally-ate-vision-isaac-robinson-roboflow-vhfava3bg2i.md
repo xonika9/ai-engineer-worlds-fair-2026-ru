@@ -1,6 +1,6 @@
-# How Transformers Finally Ate Vision – Isaac Robinson, Roboflow
+# How Transformers Finally Ate Vision
 
-- Спикеры: не указаны
+- Спикеры: Isaac Robinson, Roboflow
 - Трек: Vision @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=VhfAVA3BG2I)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

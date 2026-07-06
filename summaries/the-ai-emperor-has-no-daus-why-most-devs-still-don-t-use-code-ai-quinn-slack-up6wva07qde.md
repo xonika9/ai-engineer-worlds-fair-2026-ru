@@ -1,6 +1,6 @@
-# The AI emperor has no DAUs why most devs still don't use code AI: Quinn Slack
+# The AI emperor has no DAUs: why most devs still don't use code AI
 
-- Спикеры: не указаны
+- Спикеры: Quinn Slack
 - Трек: Coding Agents @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=Up6WVA07QdE)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

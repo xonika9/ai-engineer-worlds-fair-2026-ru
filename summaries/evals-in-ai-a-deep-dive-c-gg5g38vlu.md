@@ -1,6 +1,6 @@
-# Evals in AI: A Deep Dive
+# Harnesses in AI: A Deep Dive
 
-- Спикеры: Tejas Kumar
+- Спикеры: Tejas Kumar, IBM
 - Трек: Workshops Day 1
 - Видео: [YouTube](https://www.youtube.com/watch?v=C_GG5g38vLU)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

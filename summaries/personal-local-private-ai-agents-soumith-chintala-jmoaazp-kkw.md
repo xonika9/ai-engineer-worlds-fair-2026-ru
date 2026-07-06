@@ -1,6 +1,6 @@
-# Personal, Local, Private AI Agents: Soumith Chintala
+# Personal, Local, Private AI Agents
 
-- Спикеры: не указаны
+- Спикеры: Soumith Chintala
 - Трек: Claws & Personal Agents @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=jMoAaZP_Kkw)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

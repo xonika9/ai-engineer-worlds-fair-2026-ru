@@ -1,6 +1,6 @@
-# Tokenmaxxing is the New "Lines of Code"
+# The New Code
 
-- Спикеры: Nicholas Arcolano
+- Спикеры: Sean Grove, OpenAI
 - Трек: AI Architects: Tokenmaxxing
 - Видео: [YouTube](https://www.youtube.com/watch?v=8rABwKRsec4)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

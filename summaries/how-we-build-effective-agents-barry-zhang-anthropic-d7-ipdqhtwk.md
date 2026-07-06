@@ -1,6 +1,6 @@
-# How We Build Effective Agents: Barry Zhang, Anthropic
+# How We Build Effective Agents
 
-- Спикеры: не указаны
+- Спикеры: Barry Zhang, Anthropic
 - Трек: Agent & Harness Engineering @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=D7_ipDqhtwk)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

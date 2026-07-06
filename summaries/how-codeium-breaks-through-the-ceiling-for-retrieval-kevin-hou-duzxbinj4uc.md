@@ -1,6 +1,6 @@
-# How Codeium Breaks Through the Ceiling for Retrieval: Kevin Hou
+# How Codeium Breaks Through the Ceiling for Retrieval
 
-- Спикеры: не указаны
+- Спикеры: Kevin Hou
 - Трек: Coding Agents @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=DuZXbinJ4Uc)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

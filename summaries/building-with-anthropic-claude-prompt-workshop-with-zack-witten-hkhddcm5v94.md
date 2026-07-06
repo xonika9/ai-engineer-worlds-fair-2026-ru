@@ -1,6 +1,6 @@
-# Building with Anthropic Claude: Prompt Workshop with Zack Witten
+# Building with Anthropic Claude: Prompt Workshop
 
-- Спикеры: не указаны
+- Спикеры: Zack Witten
 - Трек: Anthropic @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=hkhDdcM5V94)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

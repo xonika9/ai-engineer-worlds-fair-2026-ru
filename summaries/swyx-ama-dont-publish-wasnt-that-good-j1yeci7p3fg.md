@@ -1,6 +1,6 @@
-# swyx ama dont publish wasnt that good
+# swyx AMA
 
-- Спикеры: не указаны
+- Спикеры: swyx
 - Трек: Building AIE
 - Видео: [YouTube](https://www.youtube.com/watch?v=j1YeCi7p3Fg)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

@@ -1,6 +1,6 @@
-# Don't Build Agents, Build Skills Instead – Barry Zhang & Mahesh Murag, Anthropic
+# Don't Build Agents, Build Skills Instead
 
-- Спикеры: не указаны
+- Спикеры: Barry Zhang & Mahesh Murag, Anthropic
 - Трек: Anthropic @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=CEvIs9y1uog)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

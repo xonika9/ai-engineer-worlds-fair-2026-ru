@@ -1,6 +1,6 @@
-# The Spatial Harness: Bringing Agents to the Canvas
+# Agents on the Canvas in tldraw
 
-- Спикеры: Max Drake
+- Спикеры: Steve Ruiz, tldraw
 - Трек: Design Engineering
 - Видео: [YouTube](https://www.youtube.com/watch?v=sPUjIBH5Cwg)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

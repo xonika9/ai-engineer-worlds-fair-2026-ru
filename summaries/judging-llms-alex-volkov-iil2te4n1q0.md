@@ -1,6 +1,6 @@
-# Judging LLMs: Alex Volkov
+# Judging LLMs
 
-- Спикеры: не указаны
+- Спикеры: Alex Volkov
 - Трек: Evals & Benchmarks @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=IIL2tE4n1Q0)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

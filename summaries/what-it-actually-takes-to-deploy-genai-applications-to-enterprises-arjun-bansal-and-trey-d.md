@@ -1,6 +1,6 @@
-# What It Actually Takes to Deploy GenAI Applications to Enterprises: Arjun Bansal and Trey Doig
+# What It Actually Takes to Deploy GenAI Applications to Enterprises
 
-- Спикеры: не указаны
+- Спикеры: Arjun Bansal and Trey Doig
 - Трек: Evals & Benchmarks @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=42q8OmAF_Gw)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

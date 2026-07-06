@@ -1,6 +1,6 @@
-# Actionable Knowledge For Agents With Context Graphs
+# Context Graphs for Explainable, Decision-Aware AI Agents
 
-- Спикеры: Will Lyon
+- Спикеры: Andreas Kollegger & Zaid Zaim, Neo4j
 - Трек: Expo Stage 2
 - Видео: [YouTube](https://www.youtube.com/watch?v=abvQEhvRI_c)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

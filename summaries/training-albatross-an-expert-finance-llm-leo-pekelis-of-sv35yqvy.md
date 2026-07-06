@@ -1,6 +1,6 @@
-# Training Albatross An Expert Finance LLM: Leo Pekelis
+# Training Albatross: An Expert Finance LLM
 
-- Спикеры: не указаны
+- Спикеры: Leo Pekelis
 - Трек: Open Models @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=of-SV35YqvY)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

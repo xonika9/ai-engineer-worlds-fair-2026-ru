@@ -1,6 +1,6 @@
-# How to Construct Domain Specific LLM Evaluation Systems: Hamel Husain and Emil Sedgh
+# How to Construct Domain Specific LLM Evaluation Systems
 
-- Спикеры: не указаны
+- Спикеры: Hamel Husain and Emil Sedgh
 - Трек: Evals & Benchmarks @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=eLXF0VojuSs)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

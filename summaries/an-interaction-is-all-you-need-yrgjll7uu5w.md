@@ -1,6 +1,6 @@
-# An Interaction Is All You Need
+# The Web Browser Is All You Need
 
-- Спикеры: Ivan Leo
+- Спикеры: Paul Klein IV, Browserbase
 - Трек: Expo Stage 3
 - Видео: [YouTube](https://www.youtube.com/watch?v=YRGjll7uu5w)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

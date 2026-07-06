@@ -1,6 +1,6 @@
-# Enhancing Quality and Security in CI: Gunjan Patel
+# Enhancing Quality and Security in CI
 
-- Спикеры: не указаны
+- Спикеры: Gunjan Patel
 - Трек: Coding Agents @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=prttz9_1XDc)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

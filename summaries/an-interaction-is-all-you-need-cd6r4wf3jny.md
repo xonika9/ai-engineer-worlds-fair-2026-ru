@@ -1,6 +1,6 @@
-# An Interaction Is All You Need
+# Gateways are All You Need
 
-- Спикеры: Ivan Leo
+- Спикеры: Karan Sampath, Anthropic
 - Трек: Expo Stage 3
 - Видео: [YouTube](https://www.youtube.com/watch?v=CD6R4Wf3jnY)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

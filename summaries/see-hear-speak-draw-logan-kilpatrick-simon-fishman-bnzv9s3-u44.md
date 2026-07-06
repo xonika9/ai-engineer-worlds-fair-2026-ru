@@ -1,6 +1,6 @@
-# See, Hear, Speak, Draw: Logan Kilpatrick & Simón Fishman
+# See, Hear, Speak, Draw
 
-- Спикеры: не указаны
+- Спикеры: Logan Kilpatrick & Simón Fishman
 - Трек: OpenAI @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=bNZV9s3_u44)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

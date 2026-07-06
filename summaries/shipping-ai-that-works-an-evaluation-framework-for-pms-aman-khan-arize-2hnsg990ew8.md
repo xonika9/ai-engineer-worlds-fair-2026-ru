@@ -1,6 +1,6 @@
-# Shipping AI That Works: An Evaluation Framework for PMs – Aman Khan, Arize
+# Shipping AI That Works: An Evaluation Framework for PMs
 
-- Спикеры: не указаны
+- Спикеры: Aman Khan, Arize
 - Трек: Arize @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=2HNSG990Ew8)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

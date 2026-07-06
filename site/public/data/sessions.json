@@ -1,9 +1,9 @@
 {
   "notice": "Обработано только то, что было публично доступно на YouTube на момент сбора, а не все выступления конференции.",
   "stats": {
-    "manifestRows": 952,
-    "summaries": 348,
-    "processedYoutube": 348,
+    "manifestRows": 951,
+    "summaries": 347,
+    "processedYoutube": 347,
     "duplicates": 2,
     "unavailable": 1,
     "missing": 491,
@@ -58,14 +58,14 @@
     {
       "id": "Other",
       "label": "Other",
-      "count": 3
+      "count": 2
     }
   ],
   "sessions": [
     {
       "id": "evals-in-ai-a-deep-dive-c-gg5g38vlu",
-      "title": "Evals in AI: A Deep Dive",
-      "speakers": "Tejas Kumar",
+      "title": "Harnesses in AI: A Deep Dive",
+      "speakers": "Tejas Kumar, IBM",
       "track": "Workshops Day 1",
       "youtubeUrl": "https://www.youtube.com/watch?v=C_GG5g38vLU",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -151,8 +151,8 @@
     },
     {
       "id": "why-building-building-agent-quality-platforms-is-hard-fq7z-wfouk",
-      "title": "Why building building agent quality platforms is hard.",
-      "speakers": "Hossein Niazmandi",
+      "title": "Why building eval platforms is hard",
+      "speakers": "Phil Hetzel, Braintrust",
       "track": "Expo Stage 2 NW",
       "youtubeUrl": "https://www.youtube.com/watch?v=_fQ7Z_Wfouk",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -244,8 +244,8 @@
     },
     {
       "id": "mcp-apps-extending-the-frontier-o-zkvb0ifdq",
-      "title": "MCP Apps - Extending the frontier",
-      "speakers": "Liad Yosef; Ido Salomon",
+      "title": "MCP UI: Extending the frontier",
+      "speakers": "Liad Yosef and Ido Salomon, MCP Apps",
       "track": "Context Engineering",
       "youtubeUrl": "https://www.youtube.com/watch?v=o-zkvb0iFDQ",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -335,8 +335,8 @@
     },
     {
       "id": "the-half-life-of-agent-infrastructure-0vbkv9yaqi4",
-      "title": "The Half Life of Agent Infrastructure",
-      "speakers": "Ben Kus",
+      "title": "The Agent Development Life Cycle",
+      "speakers": "Zack Reneau-Wedeen, Sierra",
       "track": "AI-Native Enterprises",
       "youtubeUrl": "https://www.youtube.com/watch?v=0vBKv9yAQi4",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -430,8 +430,8 @@
     },
     {
       "id": "the-spatial-harness-bringing-agents-to-the-canvas-spujibh5cwg",
-      "title": "The Spatial Harness: Bringing Agents to the Canvas",
-      "speakers": "Max Drake",
+      "title": "Agents on the Canvas in tldraw",
+      "speakers": "Steve Ruiz, tldraw",
       "track": "Design Engineering",
       "youtubeUrl": "https://www.youtube.com/watch?v=sPUjIBH5Cwg",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -2817,8 +2817,8 @@
     },
     {
       "id": "actionable-knowledge-for-agents-with-context-graphs-abvqehvri-c",
-      "title": "Actionable Knowledge For Agents With Context Graphs",
-      "speakers": "Will Lyon",
+      "title": "Context Graphs for Explainable, Decision-Aware AI Agents",
+      "speakers": "Andreas Kollegger & Zaid Zaim, Neo4j",
       "track": "Expo Stage 2",
       "youtubeUrl": "https://www.youtube.com/watch?v=abvQEhvRI_c",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -2900,8 +2900,8 @@
     },
     {
       "id": "beyond-code-generation-api-context-for-agentic-engineering-ynjyikwjonm",
-      "title": "Beyond Code Generation: API Context for Agentic Engineering",
-      "speakers": "Kamalakannan Nandagopal",
+      "title": "Agentic Search for Context Engineering",
+      "speakers": "Leonie Monigatti, Elastic",
       "track": "Expo Stage 2 NW",
       "youtubeUrl": "https://www.youtube.com/watch?v=ynJyIKwjonM",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -3004,8 +3004,8 @@
     },
     {
       "id": "is-orchestration-the-future-mc55hdwlq4o",
-      "title": "Is Orchestration the Future?",
-      "speakers": "Vlad Luzin",
+      "title": "The Future of Evals",
+      "speakers": "Ankur Goyal, Braintrust",
       "track": "AI Architects: Tokenmaxxing",
       "youtubeUrl": "https://www.youtube.com/watch?v=MC55hdWLq4o",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -3013,11 +3013,11 @@
       "relevance": 5,
       "summaryPath": "summaries/is-orchestration-the-future-mc55hdwlq4o.md",
       "watchTier": "All summaries",
-      "excerpt": "Доклад посвящён автоматизации оценки (evals) AI-продуктов. Владимир Лузин из Brain Trust рассказывает, почему ручные evals уходят в прошлое, и представляет встроенного в платформу агента Loop, который автоматически улучшает промпты, наборы данных и алгоритмы…",
+      "excerpt": "Доклад посвящён автоматизации оценки (evals) AI-продуктов. Ankur Goyal из Braintrust рассказывает, почему ручные evals уходят в прошлое, и представляет встроенного в платформу агента Loop, который автоматически улучшает промпты, наборы данных и алгоритмы…",
       "sections": [
         {
           "title": "О чём доклад",
-          "body": "Доклад посвящён автоматизации оценки (evals) AI-продуктов. Владимир Лузин из Brain Trust рассказывает, почему ручные evals уходят в прошлое, и представляет встроенного в платформу агента Loop, который автоматически улучшает промпты, наборы данных и алгоритмы оценки."
+          "body": "Доклад посвящён автоматизации оценки (evals) AI-продуктов. Ankur Goyal из Braintrust рассказывает, почему ручные evals уходят в прошлое, и представляет встроенного в платформу агента Loop, который автоматически улучшает промпты, наборы данных и алгоритмы оценки."
         },
         {
           "title": "Главные идеи",
@@ -3025,11 +3025,11 @@
         },
         {
           "title": "Практические выводы",
-          "body": "- Оценка AI-систем больше не должна быть ручной: инструменты вроде Loop берут на себя цикл улучшения.\n- Loop доступен как feature flag в Brain Trust; по умолчанию использует Claude 4, можно переключить на OpenAI, Gemini или собственную модель.\n- Есть «безрассудный» режим, в котором агент оптимизирует без подтверждений, что хорошо работает на практике."
+          "body": "- Оценка AI-систем больше не должна быть ручной: инструменты вроде Loop берут на себя цикл улучшения.\n- Loop доступен как feature flag в Braintrust; по умолчанию использует Claude 4, можно переключить на OpenAI, Gemini или собственную модель.\n- Есть «безрассудный» режим, в котором агент оптимизирует без подтверждений, что хорошо работает на практике."
         },
         {
           "title": "Упомянутые инструменты, фреймворки, компании, продукты и подходы",
-          "body": "- **Продукты**: Brain Trust (платформа), Loop (встроенный агент).\n- **Модели**: Claude 4 (ключевой прорыв), модели OpenAI, Gemini, собственные LLM.\n- **Подходы**: автоматическая оптимизация промптов, улучшение датасетов и скоров; side-by-side сравнение изменений; агентный подход к evals."
+          "body": "- **Продукты**: Braintrust (платформа), Loop (встроенный агент).\n- **Модели**: Claude 4 (ключевой прорыв), модели OpenAI, Gemini, собственные LLM.\n- **Подходы**: автоматическая оптимизация промптов, улучшение датасетов и скоров; side-by-side сравнение изменений; агентный подход к evals."
         },
         {
           "title": "Что полезно разработчику",
@@ -3084,8 +3084,8 @@
     },
     {
       "id": "voice-agents-with-realtime-video-nxutvd7v7dg",
-      "title": "Voice agents with Realtime Video",
-      "speakers": "Lina Colucci",
+      "title": "Realtime Voice AI",
+      "speakers": "Mark Backman, Daily",
       "track": "Generative Media",
       "youtubeUrl": "https://www.youtube.com/watch?v=nxuTVd7v7dg",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -5512,8 +5512,8 @@
     },
     {
       "id": "optimizing-open-models-for-production-grade-inference-gmths5t-yae",
-      "title": "Optimizing Open Models for Production Grade Inference",
-      "speakers": "Sujee Maniyam; Dylan Bristot",
+      "title": "Optimizing inference for voice models in production",
+      "speakers": "Philip Kiely, Baseten",
       "track": "Expo Stage 1 NE",
       "youtubeUrl": "https://www.youtube.com/watch?v=gmTHs5T_YAE",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -5937,8 +5937,8 @@
     },
     {
       "id": "the-state-of-vision-obnkgf9yr0g",
-      "title": "The State of Vision",
-      "speakers": "Joseph Nelson",
+      "title": "Rewiring the State",
+      "speakers": "Eoin Mulgrew, No. 10 (Downing Street)",
       "track": "Vision & OCR",
       "youtubeUrl": "https://www.youtube.com/watch?v=ObNKGf9YR0g",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -6030,8 +6030,8 @@
     },
     {
       "id": "tokenmaxxing-is-the-new-lines-of-code-bsg9wuyahwu",
-      "title": "Tokenmaxxing is the New \"Lines of Code\"",
-      "speakers": "Nicholas Arcolano",
+      "title": "Context Is the New Code",
+      "speakers": "Patrick Debois, Tessl",
       "track": "AI Architects: Tokenmaxxing",
       "youtubeUrl": "https://www.youtube.com/watch?v=bSG9wUYaHWU",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -6162,8 +6162,8 @@
     },
     {
       "id": "an-interaction-is-all-you-need-cd6r4wf3jny",
-      "title": "An Interaction Is All You Need",
-      "speakers": "Ivan Leo",
+      "title": "Gateways are All You Need",
+      "speakers": "Karan Sampath, Anthropic",
       "track": "Expo Stage 3",
       "youtubeUrl": "https://www.youtube.com/watch?v=CD6R4Wf3jnY",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -9650,8 +9650,8 @@
     },
     {
       "id": "anchoring-enterprise-genai-with-knowledge-graphs-jonathan-lowe-pfizer-stephen-chin-neo4j-o",
-      "title": "Anchoring Enterprise GenAI with Knowledge Graphs: Jonathan Lowe (Pfizer), Stephen Chin (Neo4j)",
-      "speakers": "",
+      "title": "Anchoring Enterprise GenAI with Knowledge Graphs",
+      "speakers": "Jonathan Lowe (Pfizer), Stephen Chin (Neo4j)",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=OpVkWc3YnFc",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -10231,7 +10231,7 @@
     {
       "id": "building-metrics-that-actually-work-jxrgodnopho",
       "title": "Building Metrics that actually work",
-      "speakers": "David Karam, Pi Labs",
+      "speakers": "David Karam, Pi Labs (fmr Google Search)",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=jxrGodnopHo",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -10622,8 +10622,8 @@
     },
     {
       "id": "decoding-mistral-ai-s-large-language-models-devendra-chaplot-auuktoqpwyg",
-      "title": "Decoding Mistral AI's Large Language Models: Devendra Chaplot",
-      "speakers": "",
+      "title": "Decoding Mistral AI's Large Language Models",
+      "speakers": "Devendra Chaplot",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=AUuktOQPWYg",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -12103,8 +12103,8 @@
     },
     {
       "id": "don-t-build-agents-build-skills-instead-barry-zhang-mahesh-murag-anthropic-cevis9y1uog",
-      "title": "Don't Build Agents, Build Skills Instead – Barry Zhang & Mahesh Murag, Anthropic",
-      "speakers": "",
+      "title": "Don't Build Agents, Build Skills Instead",
+      "speakers": "Barry Zhang & Mahesh Murag, Anthropic",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=CEvIs9y1uog",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -12189,8 +12189,8 @@
     },
     {
       "id": "enhancing-quality-and-security-in-ci-gunjan-patel-prttz9-1xdc",
-      "title": "Enhancing Quality and Security in CI: Gunjan Patel",
-      "speakers": "",
+      "title": "Enhancing Quality and Security in CI",
+      "speakers": "Gunjan Patel",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=prttz9_1XDc",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -12565,8 +12565,8 @@
     },
     {
       "id": "github-next-explorations-rahul-pandita-1oysef37szc",
-      "title": "GitHub Next Explorations: Rahul Pandita",
-      "speakers": "",
+      "title": "GitHub Next Explorations",
+      "speakers": "Rahul Pandita",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=1oySeF37SZc",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -12749,8 +12749,8 @@
     },
     {
       "id": "how-codeium-breaks-through-the-ceiling-for-retrieval-kevin-hou-duzxbinj4uc",
-      "title": "How Codeium Breaks Through the Ceiling for Retrieval: Kevin Hou",
-      "speakers": "",
+      "title": "How Codeium Breaks Through the Ceiling for Retrieval",
+      "speakers": "Kevin Hou",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=DuZXbinJ4Uc",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -12831,8 +12831,8 @@
     },
     {
       "id": "how-to-construct-domain-specific-llm-evaluation-systems-hamel-husain-and-emil-sedgh-elxf0v",
-      "title": "How to Construct Domain Specific LLM Evaluation Systems: Hamel Husain and Emil Sedgh",
-      "speakers": "",
+      "title": "How to Construct Domain Specific LLM Evaluation Systems",
+      "speakers": "Hamel Husain and Emil Sedgh",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=eLXF0VojuSs",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -12911,8 +12911,8 @@
     },
     {
       "id": "how-we-build-effective-agents-barry-zhang-anthropic-d7-ipdqhtwk",
-      "title": "How We Build Effective Agents: Barry Zhang, Anthropic",
-      "speakers": "",
+      "title": "How We Build Effective Agents",
+      "speakers": "Barry Zhang, Anthropic",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=D7_ipDqhtwk",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -12990,8 +12990,8 @@
     },
     {
       "id": "how-zapier-builds-ai-products-and-features-with-the-help-of-braintrust-ankur-goyal-olmo-ma",
-      "title": "How Zapier Builds AI Products and Features with the Help of Braintrust: Ankur Goyal & Olmo Maldonado",
-      "speakers": "",
+      "title": "How Zapier Builds AI Products and Features with the Help of Braintrust",
+      "speakers": "Ankur Goyal & Olmo Maldonado",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=fOtTHWeU6B8",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -14130,8 +14130,8 @@
     },
     {
       "id": "forget-rag-pipelines-build-production-ready-agents-in-15-mins-nina-lopatina-rajiv-shah-con",
-      "title": "Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual",
-      "speakers": "",
+      "title": "Forget RAG Pipelines—Build Production Ready Agents in 15 Mins",
+      "speakers": "Nina Lopatina, Rajiv Shah, Contextual",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=lArgRvBV3tQ",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -14221,8 +14221,8 @@
     },
     {
       "id": "future-proof-coding-agents-bill-chen-brian-fioca-openai-wvl6zjelpbk",
-      "title": "Future-Proof Coding Agents – Bill Chen & Brian Fioca, OpenAI",
-      "speakers": "",
+      "title": "Future-Proof Coding Agents",
+      "speakers": "Bill Chen & Brian Fioca, OpenAI",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=wVl6ZjELpBk",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -15120,8 +15120,8 @@
     },
     {
       "id": "code-generation-and-maintenance-at-scale-morgante-pell-ve-akpov78q",
-      "title": "Code Generation and Maintenance at Scale: Morgante Pell",
-      "speakers": "",
+      "title": "Code Generation and Maintenance at Scale",
+      "speakers": "Morgante Pell",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=Ve-akpov78Q",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -15554,8 +15554,8 @@
     },
     {
       "id": "fighting-slop-with-slop-l2r6vlllgs8",
-      "title": "fighting slop with slop",
-      "speakers": "Vaibhav Gupta",
+      "title": "Fighting AI with AI",
+      "speakers": "Lawrence Jones, Incident",
       "track": "Software Factories",
       "youtubeUrl": "https://www.youtube.com/watch?v=L2r6vLlLgs8",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -17189,8 +17189,8 @@
     },
     {
       "id": "actionable-knowledge-for-agents-with-context-graphs-yyxr6ldxnwm",
-      "title": "Actionable Knowledge For Agents With Context Graphs",
-      "speakers": "Will Lyon",
+      "title": "Knowledge Graphs in Litigation Agents",
+      "speakers": "Tom Smoker, WhyHow",
       "track": "Expo Stage 2",
       "youtubeUrl": "https://www.youtube.com/watch?v=yYxr6LdXNWM",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -17664,8 +17664,8 @@
     },
     {
       "id": "personal-local-private-ai-agents-soumith-chintala-jmoaazp-kkw",
-      "title": "Personal, Local, Private AI Agents: Soumith Chintala",
-      "speakers": "",
+      "title": "Personal, Local, Private AI Agents",
+      "speakers": "Soumith Chintala",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=jMoAaZP_Kkw",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -20232,8 +20232,8 @@
     },
     {
       "id": "the-ai-emperor-has-no-daus-why-most-devs-still-don-t-use-code-ai-quinn-slack-up6wva07qde",
-      "title": "The AI emperor has no DAUs why most devs still don't use code AI: Quinn Slack",
-      "speakers": "",
+      "title": "The AI emperor has no DAUs: why most devs still don't use code AI",
+      "speakers": "Quinn Slack",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=Up6WVA07QdE",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -20570,8 +20570,8 @@
     },
     {
       "id": "what-it-actually-takes-to-deploy-genai-applications-to-enterprises-arjun-bansal-and-trey-d",
-      "title": "What It Actually Takes to Deploy GenAI Applications to Enterprises: Arjun Bansal and Trey Doig",
-      "speakers": "",
+      "title": "What It Actually Takes to Deploy GenAI Applications to Enterprises",
+      "speakers": "Arjun Bansal and Trey Doig",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=42q8OmAF_Gw",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -20930,8 +20930,8 @@
     },
     {
       "id": "judging-llms-alex-volkov-iil2te4n1q0",
-      "title": "Judging LLMs: Alex Volkov",
-      "speakers": "",
+      "title": "Judging LLMs",
+      "speakers": "Alex Volkov",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=IIL2tE4n1Q0",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -21008,8 +21008,8 @@
     },
     {
       "id": "lessons-from-the-trenches-building-llm-evals-that-work-irl-aparna-dhinkaran-nbzzsc5a6hs",
-      "title": "Lessons from the Trenches: Building LLM Evals That Work IRL: Aparna Dhinkaran",
-      "speakers": "",
+      "title": "Lessons from the Trenches: Building LLM Evals That Work IRL",
+      "speakers": "Aparna Dhinkaran",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=nbZzSC5A6hs",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -21187,8 +21187,8 @@
     },
     {
       "id": "an-interaction-is-all-you-need-bmwzk9vtze0",
-      "title": "An Interaction Is All You Need",
-      "speakers": "Ivan Leo",
+      "title": "MCP is all you need",
+      "speakers": "Samuel Colvin, Pydantic",
       "track": "Expo Stage 3",
       "youtubeUrl": "https://www.youtube.com/watch?v=bmWZk9vTze0",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -21196,11 +21196,11 @@
       "relevance": 5,
       "summaryPath": "summaries/an-interaction-is-all-you-need-bmwzk9vtze0.md",
       "watchTier": "All summaries",
-      "excerpt": "Иван Лео, создатель Pydantic, показывает, что протокол MCP (Model Context Protocol) — это не только связка для coding-агентов, но и универсальный фундамент для коммуникации автономных агентов. Фокус — на вызовах инструментов (tool calling), а также на…",
+      "excerpt": "Samuel Colvin, создатель Pydantic, показывает, что протокол MCP (Model Context Protocol) — это не только связка для coding-агентов, но и универсальный фундамент для коммуникации автономных агентов. Фокус — на вызовах инструментов (tool calling), а также на…",
       "sections": [
         {
           "title": "О чём доклад",
-          "body": "Иван Лео, создатель Pydantic, показывает, что протокол MCP (Model Context Protocol) — это не только связка для coding-агентов, но и универсальный фундамент для коммуникации автономных агентов. Фокус — на вызовах инструментов (tool calling), а также на «семплинге» — возможности MCP-сервера запрашивать LLM через клиента, упрощая построение многоагентных систем."
+          "body": "Samuel Colvin, создатель Pydantic, показывает, что протокол MCP (Model Context Protocol) — это не только связка для coding-агентов, но и универсальный фундамент для коммуникации автономных агентов. Фокус — на вызовах инструментов (tool calling), а также на «семплинге» — возможности MCP-сервера запрашивать LLM через клиента, упрощая построение многоагентных систем."
         },
         {
           "title": "Главные идеи",
@@ -21910,8 +21910,8 @@
     },
     {
       "id": "shipping-ai-that-works-an-evaluation-framework-for-pms-aman-khan-arize-2hnsg990ew8",
-      "title": "Shipping AI That Works: An Evaluation Framework for PMs – Aman Khan, Arize",
-      "speakers": "",
+      "title": "Shipping AI That Works: An Evaluation Framework for PMs",
+      "speakers": "Aman Khan, Arize",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=2HNSG990Ew8",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -23140,8 +23140,8 @@
     },
     {
       "id": "katelyn-lesse-evolving-claude-apis-for-agents-anthropic-aqw68is-kj4",
-      "title": "Katelyn Lesse – Evolving Claude APIs for Agents, Anthropic",
-      "speakers": "",
+      "title": "Evolving Claude APIs for Agents",
+      "speakers": "Katelyn Lesse, Anthropic",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=aqW68Is_Kj4",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -23777,8 +23777,8 @@
     },
     {
       "id": "proactive-agents-kath-korevec-google-labs-v3u8xc0zlec",
-      "title": "Proactive Agents – Kath Korevec, Google Labs",
-      "speakers": "",
+      "title": "Proactive Agents",
+      "speakers": "Kath Korevec, Google Labs",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=v3u8xc0zLec",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -24416,8 +24416,8 @@
     },
     {
       "id": "an-interaction-is-all-you-need-yrgjll7uu5w",
-      "title": "An Interaction Is All You Need",
-      "speakers": "Ivan Leo",
+      "title": "The Web Browser Is All You Need",
+      "speakers": "Paul Klein IV, Browserbase",
       "track": "Expo Stage 3",
       "youtubeUrl": "https://www.youtube.com/watch?v=YRGjll7uu5w",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -24951,8 +24951,8 @@
     },
     {
       "id": "is-orchestration-the-future-v3fr2jr47ka",
-      "title": "Is Orchestration the Future?",
-      "speakers": "Vlad Luzin",
+      "title": "The Future of MCP",
+      "speakers": "David Soria Parra, Anthropic",
       "track": "AI Architects: Tokenmaxxing",
       "youtubeUrl": "https://www.youtube.com/watch?v=v3Fr2JR47KA",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -25342,8 +25342,8 @@
     },
     {
       "id": "an-interaction-is-all-you-need-kuemeb71vzq",
-      "title": "An Interaction Is All You Need",
-      "speakers": "Ivan Leo",
+      "title": "Function Calling is All You Need",
+      "speakers": "Ilan Bigio, OpenAI",
       "track": "Expo Stage 3",
       "youtubeUrl": "https://www.youtube.com/watch?v=KUEmEb71vzQ",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -25993,8 +25993,8 @@
     },
     {
       "id": "everything-you-need-to-know-about-fine-tuning-and-merging-llms-maxime-labonne-ulroi65xbdw",
-      "title": "Everything you need to know about Fine-tuning and Merging LLMs: Maxime Labonne",
-      "speakers": "",
+      "title": "Everything you need to know about Fine-tuning and Merging LLMs",
+      "speakers": "Maxime Labonne",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=uLrOI65XbDw",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -26203,8 +26203,8 @@
     },
     {
       "id": "training-albatross-an-expert-finance-llm-leo-pekelis-of-sv35yqvy",
-      "title": "Training Albatross An Expert Finance LLM: Leo Pekelis",
-      "speakers": "",
+      "title": "Training Albatross: An Expert Finance LLM",
+      "speakers": "Leo Pekelis",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=of-SV35YqvY",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -26483,8 +26483,8 @@
     },
     {
       "id": "how-transformers-finally-ate-vision-isaac-robinson-roboflow-vhfava3bg2i",
-      "title": "How Transformers Finally Ate Vision – Isaac Robinson, Roboflow",
-      "speakers": "",
+      "title": "How Transformers Finally Ate Vision",
+      "speakers": "Isaac Robinson, Roboflow",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=VhfAVA3BG2I",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -26929,8 +26929,8 @@
     },
     {
       "id": "building-in-the-gemini-era-kat-kampf-ammaar-reshi-google-deepmind-fgkxeibzpgc",
-      "title": "Building in the Gemini Era – Kat Kampf & Ammaar Reshi, Google DeepMind",
-      "speakers": "",
+      "title": "Building in the Gemini Era",
+      "speakers": "Kat Kampf & Ammaar Reshi, Google DeepMind",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=fgkXEIbZpGc",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -27871,8 +27871,8 @@
     },
     {
       "id": "fixing-bugs-in-gemma-llama-phi-3-daniel-han-tkmfbnw0mqa",
-      "title": "Fixing bugs in Gemma, Llama, & Phi 3: Daniel Han",
-      "speakers": "",
+      "title": "Fixing bugs in Gemma, Llama, & Phi 3",
+      "speakers": "Daniel Han",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=TKmfBnW0mQA",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -28124,63 +28124,6 @@
       "topics": [
         "AI agents",
         "Evals / reliability / observability"
-      ]
-    },
-    {
-      "id": "2026-ai-engineer-vibe-reel-gumwt4-5kn0",
-      "title": "2026 AI Engineer Vibe Reel",
-      "speakers": "",
-      "track": "Online Track",
-      "youtubeUrl": "https://www.youtube.com/watch?v=gUMwt4-5kn0",
-      "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
-      "status": "summarized",
-      "relevance": 2,
-      "summaryPath": "summaries/2026-ai-engineer-vibe-reel-gumwt4-5kn0.md",
-      "watchTier": "All summaries",
-      "excerpt": "Расшифровка содержит только повторяющееся слово «Heat» и фоновую музыку. Содержательная часть выступления отсутствует.",
-      "sections": [
-        {
-          "title": "О чём доклад",
-          "body": "Расшифровка содержит только повторяющееся слово «Heat» и фоновую музыку. Содержательная часть выступления отсутствует."
-        },
-        {
-          "title": "Главные идеи",
-          "body": "Нет данных для извлечения идей."
-        },
-        {
-          "title": "Практические выводы",
-          "body": "Нет данных для формулировки выводов."
-        },
-        {
-          "title": "Упомянутые инструменты, фреймворки, компании, продукты и подходы",
-          "body": "Не упомянуты."
-        },
-        {
-          "title": "Что полезно разработчику",
-          "body": "Информация отсутствует."
-        },
-        {
-          "title": "Что можно применить в агентных продуктах",
-          "body": "Не применимо из-за отсутствия содержания."
-        },
-        {
-          "title": "Стоит ли смотреть полностью: yes / maybe / no",
-          "body": "no"
-        },
-        {
-          "title": "Самые важные таймкоды",
-          "body": "- [0:00:11–0:00:37] Расшифровка фиксирует только слово «Heat» и музыку, смысловая информация не зафиксирована."
-        }
-      ],
-      "timestamps": [
-        {
-          "time": "0:00:11",
-          "endTime": "0:00:37",
-          "label": "Расшифровка фиксирует только слово «Heat» и музыку, смысловая информация не зафиксирована."
-        }
-      ],
-      "topics": [
-        "Other"
       ]
     },
     {
@@ -28479,8 +28422,8 @@
     },
     {
       "id": "the-unreasonable-effectiveness-of-prompt-learning-aparna-dhinakaran-arize-pp-dsnz-edq",
-      "title": "The Unreasonable Effectiveness of Prompt Learning – Aparna Dhinakaran, Arize",
-      "speakers": "",
+      "title": "The Unreasonable Effectiveness of Prompt Learning",
+      "speakers": "Aparna Dhinakaran, Arize",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=pP_dSNz_EdQ",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -28759,8 +28702,8 @@
     },
     {
       "id": "building-state-of-the-art-open-weights-tool-use-the-command-r-family-sandra-kublik-vnssl4u",
-      "title": "Building State of the Art Open Weights Tool Use: The Command R Family: Sandra Kublik",
-      "speakers": "",
+      "title": "Building State of the Art Open Weights Tool Use: The Command R Family",
+      "speakers": "Sandra Kublik",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=vNssL4u5jb8",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -28946,8 +28889,8 @@
     },
     {
       "id": "from-text-to-vision-to-voice-exploring-multimodality-with-open-ai-romain-huet-yjhw33cveho",
-      "title": "From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet",
-      "speakers": "",
+      "title": "From Text to Vision to Voice: Exploring Multimodality with OpenAI",
+      "speakers": "Romain Huet",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=yJHw33cVeHo",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -29238,8 +29181,8 @@
     },
     {
       "id": "see-hear-speak-draw-logan-kilpatrick-simon-fishman-bnzv9s3-u44",
-      "title": "See, Hear, Speak, Draw: Logan Kilpatrick & Simón Fishman",
-      "speakers": "",
+      "title": "See, Hear, Speak, Draw",
+      "speakers": "Logan Kilpatrick & Simón Fishman",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=bNZV9s3_u44",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -29414,8 +29357,8 @@
     },
     {
       "id": "what-s-new-from-anthropic-and-what-s-next-alex-albert-euc1gwhqdke",
-      "title": "What's new from Anthropic and what's next: Alex Albert",
-      "speakers": "",
+      "title": "What's new from Anthropic and what's next",
+      "speakers": "Alex Albert",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=EuC1GWhQdKE",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -29591,8 +29534,8 @@
     },
     {
       "id": "no-more-bad-outputs-with-structured-generation-remi-louf-anmfvn6s-n4",
-      "title": "No more bad outputs with structured generation: Remi Louf",
-      "speakers": "",
+      "title": "No more bad outputs with structured generation",
+      "speakers": "Remi Louf",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=aNmfvN6S_n4",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -30484,8 +30427,8 @@
     },
     {
       "id": "building-with-anthropic-claude-prompt-workshop-with-zack-witten-hkhddcm5v94",
-      "title": "Building with Anthropic Claude: Prompt Workshop with Zack Witten",
-      "speakers": "",
+      "title": "Building with Anthropic Claude: Prompt Workshop",
+      "speakers": "Zack Witten",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=hkhDdcM5V94",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -30578,8 +30521,8 @@
     },
     {
       "id": "an-interaction-is-all-you-need-on5lit0m4do",
-      "title": "An Interaction Is All You Need",
-      "speakers": "Ivan Leo",
+      "title": "Feedback Loops are All You Need",
+      "speakers": "Mehedi Hassan, Granola",
       "track": "Expo Stage 3",
       "youtubeUrl": "https://www.youtube.com/watch?v=ON5LIT0M4do",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -30587,11 +30530,11 @@
       "relevance": 4,
       "summaryPath": "summaries/an-interaction-is-all-you-need-on5lit0m4do.md",
       "watchTier": "All summaries",
-      "excerpt": "Продуктовый инженер из Cronulla делится опытом внедрения AI-фич в десктопное приложение для заметок. Доклад не про устройство LLM, а про инженерные практики: как перестать «надеяться на one-shot» и выстроить цикл обратной связи, чтобы поведение моделей стало…",
+      "excerpt": "Продуктовый инженер из Granola делится опытом внедрения AI-фич в десктопное приложение для заметок. Доклад не про устройство LLM, а про инженерные практики: как перестать «надеяться на one-shot» и выстроить цикл обратной связи, чтобы поведение моделей стало…",
       "sections": [
         {
           "title": "О чём доклад",
-          "body": "Продуктовый инженер из Cronulla делится опытом внедрения AI-фич в десктопное приложение для заметок. Доклад не про устройство LLM, а про инженерные практики: как перестать «надеяться на one-shot» и выстроить цикл обратной связи, чтобы поведение моделей стало предсказуемым, а итерации — быстрыми."
+          "body": "Продуктовый инженер из Granola делится опытом внедрения AI-фич в десктопное приложение для заметок. Доклад не про устройство LLM, а про инженерные практики: как перестать «надеяться на one-shot» и выстроить цикл обратной связи, чтобы поведение моделей стало предсказуемым, а итерации — быстрыми."
         },
         {
           "title": "Главные идеи",
@@ -30603,7 +30546,7 @@
         },
         {
           "title": "Упомянутые инструменты, фреймворки, компании, продукты и подходы",
-          "body": "- **Продукты:** Cronulla (десктопное приложение для заметок с транскрипцией), Cursor (AI-среда для тестирования PR), CloudWatch.\n- **Фреймворки и технологии:** Electron, AI SDK (универсальная обёртка для LLM), OpenTelemetry, React, веб-стандарты (IPC abstraction).\n- **Подходы:** собственный tracing UI для LLM-пайплайнов, веб-шелл для десктопного приложения, автоматические скриншоты в PR через AI."
+          "body": "- **Продукты:** Granola (десктопное приложение для заметок с транскрипцией), Cursor (AI-среда для тестирования PR), CloudWatch.\n- **Фреймворки и технологии:** Electron, AI SDK (универсальная обёртка для LLM), OpenTelemetry, React, веб-стандарты (IPC abstraction).\n- **Подходы:** собственный tracing UI для LLM-пайплайнов, веб-шелл для десктопного приложения, автоматические скриншоты в PR через AI."
         },
         {
           "title": "Что полезно разработчику",
@@ -31000,8 +30943,8 @@
     },
     {
       "id": "tokenmaxxing-is-the-new-lines-of-code-8rabwkrsec4",
-      "title": "Tokenmaxxing is the New \"Lines of Code\"",
-      "speakers": "Nicholas Arcolano",
+      "title": "The New Code",
+      "speakers": "Sean Grove, OpenAI",
       "track": "AI Architects: Tokenmaxxing",
       "youtubeUrl": "https://www.youtube.com/watch?v=8rABwKRsec4",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",
@@ -31730,8 +31673,8 @@
     },
     {
       "id": "swyx-ama-dont-publish-wasnt-that-good-j1yeci7p3fg",
-      "title": "swyx ama dont publish wasnt that good",
-      "speakers": "",
+      "title": "swyx AMA",
+      "speakers": "swyx",
       "track": "Online Track",
       "youtubeUrl": "https://www.youtube.com/watch?v=j1YeCi7p3Fg",
       "sourceUrl": "https://www.ai.engineer/worldsfair/schedule",

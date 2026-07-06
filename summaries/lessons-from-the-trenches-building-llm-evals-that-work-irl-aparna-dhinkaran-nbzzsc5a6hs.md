@@ -1,6 +1,6 @@
-# Lessons from the Trenches: Building LLM Evals That Work IRL: Aparna Dhinkaran
+# Lessons from the Trenches: Building LLM Evals That Work IRL
 
-- Спикеры: не указаны
+- Спикеры: Aparna Dhinkaran
 - Трек: Evals & Benchmarks @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=nbZzSC5A6hs)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

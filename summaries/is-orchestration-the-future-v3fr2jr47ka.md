@@ -1,6 +1,6 @@
-# Is Orchestration the Future?
+# The Future of MCP
 
-- Спикеры: Vlad Luzin
+- Спикеры: David Soria Parra, Anthropic
 - Трек: AI Architects: Tokenmaxxing
 - Видео: [YouTube](https://www.youtube.com/watch?v=v3Fr2JR47KA)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

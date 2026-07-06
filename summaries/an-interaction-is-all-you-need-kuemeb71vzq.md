@@ -1,6 +1,6 @@
-# An Interaction Is All You Need
+# Function Calling is All You Need
 
-- Спикеры: Ivan Leo
+- Спикеры: Ilan Bigio, OpenAI
 - Трек: Expo Stage 3
 - Видео: [YouTube](https://www.youtube.com/watch?v=KUEmEb71vzQ)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

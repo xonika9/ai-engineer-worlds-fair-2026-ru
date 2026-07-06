@@ -1,6 +1,6 @@
-# Code Generation and Maintenance at Scale: Morgante Pell
+# Code Generation and Maintenance at Scale
 
-- Спикеры: не указаны
+- Спикеры: Morgante Pell
 - Трек: Coding Agents @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=Ve-akpov78Q)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

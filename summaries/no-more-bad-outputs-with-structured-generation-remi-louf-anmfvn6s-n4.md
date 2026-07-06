@@ -1,6 +1,6 @@
-# No more bad outputs with structured generation: Remi Louf
+# No more bad outputs with structured generation
 
-- Спикеры: не указаны
+- Спикеры: Remi Louf
 - Трек: Open Models @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=aNmfvN6S_n4)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

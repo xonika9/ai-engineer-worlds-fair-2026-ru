@@ -1,6 +1,6 @@
-# Forget RAG Pipelines—Build Production Ready Agents in 15 Mins: Nina Lopatina, Rajiv Shah, Contextual
+# Forget RAG Pipelines—Build Production Ready Agents in 15 Mins
 
-- Спикеры: не указаны
+- Спикеры: Nina Lopatina, Rajiv Shah, Contextual
 - Трек: Search & Retrieval @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=lArgRvBV3tQ)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

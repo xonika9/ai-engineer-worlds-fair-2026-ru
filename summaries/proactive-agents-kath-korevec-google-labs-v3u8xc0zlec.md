@@ -1,6 +1,6 @@
-# Proactive Agents – Kath Korevec, Google Labs
+# Proactive Agents
 
-- Спикеры: не указаны
+- Спикеры: Kath Korevec, Google Labs
 - Трек: Google DeepMind @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=v3u8xc0zLec)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

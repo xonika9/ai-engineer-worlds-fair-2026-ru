@@ -1,6 +1,6 @@
-# Decoding Mistral AI's Large Language Models: Devendra Chaplot
+# Decoding Mistral AI's Large Language Models
 
-- Спикеры: не указаны
+- Спикеры: Devendra Chaplot
 - Трек: Open Models @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=AUuktOQPWYg)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

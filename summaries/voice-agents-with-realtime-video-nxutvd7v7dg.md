@@ -1,6 +1,6 @@
-# Voice agents with Realtime Video
+# Realtime Voice AI
 
-- Спикеры: Lina Colucci
+- Спикеры: Mark Backman, Daily
 - Трек: Generative Media
 - Видео: [YouTube](https://www.youtube.com/watch?v=nxuTVd7v7dg)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

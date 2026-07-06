@@ -1,6 +1,6 @@
-# Tokenmaxxing is the New "Lines of Code"
+# Context Is the New Code
 
-- Спикеры: Nicholas Arcolano
+- Спикеры: Patrick Debois, Tessl
 - Трек: AI Architects: Tokenmaxxing
 - Видео: [YouTube](https://www.youtube.com/watch?v=bSG9wUYaHWU)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

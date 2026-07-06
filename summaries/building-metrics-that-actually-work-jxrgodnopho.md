@@ -1,6 +1,6 @@
 # Building Metrics that actually work
 
-- Спикеры: David Karam, Pi Labs
+- Спикеры: David Karam, Pi Labs (fmr Google Search)
 - Трек: Evals & Benchmarks @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=jxrGodnopHo)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

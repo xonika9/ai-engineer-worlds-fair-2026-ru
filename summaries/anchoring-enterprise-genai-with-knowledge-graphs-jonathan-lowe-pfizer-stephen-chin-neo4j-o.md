@@ -1,6 +1,6 @@
-# Anchoring Enterprise GenAI with Knowledge Graphs: Jonathan Lowe (Pfizer), Stephen Chin (Neo4j)
+# Anchoring Enterprise GenAI with Knowledge Graphs
 
-- Спикеры: не указаны
+- Спикеры: Jonathan Lowe (Pfizer), Stephen Chin (Neo4j)
 - Трек: Graphs @ AI Engineer (Context Graphs, Knowledge Graphs, GraphRAG, GNNs)
 - Видео: [YouTube](https://www.youtube.com/watch?v=OpVkWc3YnFc)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

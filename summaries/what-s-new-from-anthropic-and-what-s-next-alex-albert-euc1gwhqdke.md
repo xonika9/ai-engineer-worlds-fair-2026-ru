@@ -1,6 +1,6 @@
-# What's new from Anthropic and what's next: Alex Albert
+# What's new from Anthropic and what's next
 
-- Спикеры: не указаны
+- Спикеры: Alex Albert
 - Трек: Anthropic @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=EuC1GWhQdKE)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

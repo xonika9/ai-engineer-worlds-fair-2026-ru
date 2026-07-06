@@ -1,6 +1,6 @@
-# From Text to Vision to Voice Exploring Multimodality with Open AI: Romain Huet
+# From Text to Vision to Voice: Exploring Multimodality with OpenAI
 
-- Спикеры: не указаны
+- Спикеры: Romain Huet
 - Трек: OpenAI @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=yJHw33cVeHo)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

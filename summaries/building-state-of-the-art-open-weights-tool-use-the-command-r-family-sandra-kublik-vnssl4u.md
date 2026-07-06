@@ -1,6 +1,6 @@
-# Building State of the Art Open Weights Tool Use: The Command R Family: Sandra Kublik
+# Building State of the Art Open Weights Tool Use: The Command R Family
 
-- Спикеры: не указаны
+- Спикеры: Sandra Kublik
 - Трек: Open Models @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=vNssL4u5jb8)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

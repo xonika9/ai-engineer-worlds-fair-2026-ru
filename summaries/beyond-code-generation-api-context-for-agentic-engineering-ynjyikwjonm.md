@@ -1,6 +1,6 @@
-# Beyond Code Generation: API Context for Agentic Engineering
+# Agentic Search for Context Engineering
 
-- Спикеры: Kamalakannan Nandagopal
+- Спикеры: Leonie Monigatti, Elastic
 - Трек: Expo Stage 2 NW
 - Видео: [YouTube](https://www.youtube.com/watch?v=ynJyIKwjonM)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

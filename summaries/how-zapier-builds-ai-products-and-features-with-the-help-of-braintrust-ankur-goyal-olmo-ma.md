@@ -1,6 +1,6 @@
-# How Zapier Builds AI Products and Features with the Help of Braintrust: Ankur Goyal & Olmo Maldonado
+# How Zapier Builds AI Products and Features with the Help of Braintrust
 
-- Спикеры: не указаны
+- Спикеры: Ankur Goyal & Olmo Maldonado
 - Трек: Braintrust @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=fOtTHWeU6B8)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

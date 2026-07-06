@@ -1,6 +1,6 @@
-# MCP Apps - Extending the frontier
+# MCP UI: Extending the frontier
 
-- Спикеры: Liad Yosef; Ido Salomon
+- Спикеры: Liad Yosef and Ido Salomon, MCP Apps
 - Трек: Context Engineering
 - Видео: [YouTube](https://www.youtube.com/watch?v=o-zkvb0iFDQ)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)

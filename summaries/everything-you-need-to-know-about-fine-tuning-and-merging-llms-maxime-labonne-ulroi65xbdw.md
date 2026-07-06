@@ -1,6 +1,6 @@
-# Everything you need to know about Fine-tuning and Merging LLMs: Maxime Labonne
+# Everything you need to know about Fine-tuning and Merging LLMs
 
-- Спикеры: не указаны
+- Спикеры: Maxime Labonne
 - Трек: Open Models @ AI Engineer
 - Видео: [YouTube](https://www.youtube.com/watch?v=uLrOI65XbDw)
 - Официальный источник: [расписание AI Engineer World's Fair](https://www.ai.engineer/worldsfair/schedule)
