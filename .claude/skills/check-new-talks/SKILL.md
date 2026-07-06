@@ -26,9 +26,11 @@ authoritative playlist/upload-date rules and the five specific mistakes to avoid
    ```bash
    node .claude/skills/check-new-talks/scripts/check-new-talks.mjs
    ```
-   It lists **TALKS TO ADD** (verified WF2026) and **VERIFY MANUALLY**
-   (ambiguous — a 2026 upload seen only in a cross-year topic playlist, or no
-   metadata). It skips other-event videos silently.
+   It lists **TALKS TO ADD** (in a WF2026 playlist, or uploaded on/after the
+   29 Jun fair date) and **VERIFY MANUALLY** (e.g. no metadata). It silently
+   drops other-event videos and prints a count of **excluded pre-fair 2026
+   uploads** — those are AI Engineer Europe / other events, not WF2026 (see
+   references/provenance.md for why upload date is the discriminator).
 
 2. **Review before touching anything.** For each "VERIFY MANUALLY" item, confirm
    provenance per references/provenance.md; if still unclear, **ask the user** —

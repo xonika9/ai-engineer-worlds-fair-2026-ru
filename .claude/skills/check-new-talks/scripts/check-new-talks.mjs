@@ -14,9 +14,20 @@ import { execFileSync } from "node:child_process";
 const SCAFFOLD = process.argv.includes("--scaffold");
 const REPO = process.cwd();
 const CHANNEL = "https://www.youtube.com/@aiDotEngineer/playlists";
-const ONLINE_TRACK_2026 = "PLcfpQ4tk2k0V1LNigteMgExP1rb4Hy8wn"; // authoritative WF2026 online-track anchor
+// Authoritative WF2026 playlists. Membership proves the event; the title regex
+// in classifyPlaylist may miss a rename, so anchor both ids explicitly.
+const WF2026_ANCHORS = [
+  "PLcfpQ4tk2k0V1LNigteMgExP1rb4Hy8wn", // AI Engineer World's Fair Online Track 2026
+  "PLDyBmFH9HlVc",                       // AIE World's Fair 2026 Complete Playlist
+];
 const SCHEDULE_URL = "https://www.ai.engineer/worldsfair/sessions.json";
-const CONFERENCE_YEAR = "2026"; // WF2026 was 29 Jun – 2 Jul 2026; its uploads are 2026
+// WF2026 ran 29 Jun – 2 Jul 2026. A talk given in person cannot be uploaded
+// before it starts, so any pre-fair upload that is NOT in a WF2026 playlist is a
+// different event. Critically, AI Engineer Europe 2026 (8–10 Apr, London) uploads
+// its talks in Apr–May into the SAME evergreen "@ AI Engineer" topic playlists —
+// so "in a topic playlist + dated 2026" does NOT mean WF2026. The fair date is
+// the discriminator that separates them.
+const FAIR_START = "20260629";
 
 const SEP = "|||"; // yt-dlp does not expand \t in --print; use a literal separator
 const idFromUrl = (s) => (s.match(/[?&]v=([A-Za-z0-9_-]+)/) || [])[1];
@@ -63,8 +74,8 @@ console.error("Fetching channel playlists…");
 const playlists = flatPlaylist(CHANNEL, `%(id)s${SEP}%(title)s`)
   .map((l) => { const [id, ...t] = l.split(SEP); return { id: id.trim(), title: t.join(SEP).trim() }; })
   .filter((p) => p.id.startsWith("PL"));
-if (!playlists.some((p) => p.id === ONLINE_TRACK_2026))
-  playlists.push({ id: ONLINE_TRACK_2026, title: "AI Engineer World's Fair Online Track 2026" });
+for (const id of WF2026_ANCHORS)
+  if (!playlists.some((p) => p.id === id)) playlists.push({ id, title: "AI Engineer World's Fair 2026" });
 
 const wf2026Set = new Set(), otherSet = new Set(), topicSet = new Set();
 const provOf = new Map(); // id -> [playlist titles it appears in]
@@ -112,6 +123,7 @@ function splitTitleSpeaker(title) {
 const slugify = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 80);
 
 const toAdd = [], toVerify = [];
+let skippedPrefair = 0; // 2026 uploads not in a WF2026 playlist, dated before the fair → Europe/other
 for (const id of candidates) {
   if (otherSet.has(id) && !wf2026Set.has(id)) continue; // another event → skip without a metadata fetch
   const raw = yt(["--skip-download", "--no-warnings", "--print", `%(upload_date)s${SEP}%(title)s`,
@@ -119,17 +131,17 @@ for (const id of candidates) {
   if (!raw) { toVerify.push({ id, ytTitle: "", reason: "no YouTube metadata (private/removed?)" }); continue; }
   const [date, ...rest] = raw.split(SEP);
   const ytTitle = rest.join(SEP).trim();
-  const year = (date || "").slice(0, 4);
   const via = (provOf.get(id) || []);
   const { title, speaker } = splitTitleSpeaker(ytTitle);
   const rec = { id, ytTitle, title, speaker, date, url: `https://www.youtube.com/watch?v=${id}`,
     sched: scheduleMatch(title), via };
 
   if (wf2026Set.has(id)) { toAdd.push(rec); continue; }        // in a WF2026 playlist → authoritative
-  if (otherSet.has(id)) continue;                               // another event → not ours
-  if (year < CONFERENCE_YEAR) continue;                         // prior year → never WF2026 (silent)
-  if (topicSet.has(id) && year === CONFERENCE_YEAR) { toAdd.push(rec); continue; } // 2026 topic-only, not other
-  toVerify.push({ ...rec, reason: `ambiguous (${year}); confirm the event before adding` });
+  if ((date || "") >= FAIR_START) { toAdd.push(rec); continue; } // uploaded during/after the fair → in-person WF2026
+  // Not in a WF2026 playlist and uploaded before the fair: pre-fair WF2026 content
+  // is the online track, which IS in the anchor playlist above — so this is another
+  // event (AI Engineer Europe 2026 in Apr–May, or an older year). Exclude it.
+  if ((date || "").slice(0, 4) === "2026") skippedPrefair++;
 }
 
 // --- 6. report ---
@@ -142,6 +154,8 @@ for (const r of toAdd.sort((a, b) => (a.date || "").localeCompare(b.date || ""))
 }
 console.log(`\n${line}\nVERIFY MANUALLY (do NOT add blindly): ${toVerify.length}\n${line}`);
 for (const r of toVerify) console.log(`• ${r.ytTitle || r.id}  [${r.id}]\n  → ${r.reason}`);
+if (skippedPrefair)
+  console.log(`\nExcluded ${skippedPrefair} pre-fair 2026 upload(s) not in a WF2026 playlist (AI Engineer Europe / other — see references/provenance.md). If you suspect a real WF2026 online-track talk is missing from the anchor playlist, inspect them by hand.`);
 if (!toAdd.length && !toVerify.length) console.log("Nothing new. Repo is current with WF2026 uploads.");
 
 // --- 7. optional scaffolding ---
