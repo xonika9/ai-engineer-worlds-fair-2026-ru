@@ -28,7 +28,7 @@
 ## tool use
 
 - [The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica](https://www.youtube.com/watch?v=vh2VGuQ3zhY&t=263s) — Sohail Shaikh & Ankush Rastogi, Prosodica; таймкод: 0:04:23. Большой набор инструментов надо маршрутизировать, а не передавать модели целиком.
-- [Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio](https://www.youtube.com/watch?v=Q9ycQHbDdJs&t=1s) — Armanas Povilionis, Alithea Bio; таймкод: 0:00:01. Вызов инструмента сам по себе не доказательство: нужны проверяемые следы результата.
+- [Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio](https://www.youtube.com/watch?v=Fu45geO3zX8&t=1s) — Armanas Povilionis, Alithea Bio; таймкод: 0:00:01. Вызов инструмента сам по себе не доказательство: нужны проверяемые следы результата.
 - [MCP Apps: Primitives, discovery, and the Future of Software - Pietro Zullo, Manufact, Inc](https://www.youtube.com/watch?v=sAOBXCDiDOs&t=361s) — Pietro Zullo, Manufact, Inc; таймкод: 0:06:01. MCP Apps показывают, как инструмент может отдавать модели данные, а пользователю интерфейс.
 - [Skills are the New SDKs - Elvin Aghammadzada, DataRobot](https://www.youtube.com/watch?v=LC3-P7v3yoI&t=780s) — Elvin Aghammadzada, DataRobot; таймкод: 0:13:00. Навыки становятся новым способом упаковывать действия, знания и инструкции для агента.
 

@@ -18,7 +18,7 @@
 
 - Большой набор инструментов ухудшает работу агента; лучше использовать semantic router и подгружать нужный контекст по требованию. Источник: [The 100-Tool Agent Is a Trap](https://www.youtube.com/watch?v=vh2VGuQ3zhY&t=263s).
 - Навыки становятся новым SDK: их нужно индексировать, версионировать, тестировать и исполнять в контролируемой среде. Источник: [Skills are the New SDKs](https://www.youtube.com/watch?v=LC3-P7v3yoI&t=780s).
-- Агентам нужны проверяемые следы результата, а не только журнал вызова инструмента. Источник: [Agents Need Receipts](https://www.youtube.com/watch?v=Q9ycQHbDdJs&t=1s).
+- Агентам нужны проверяемые следы результата, а не только журнал вызова инструмента. Источник: [Agents Need Receipts](https://www.youtube.com/watch?v=Fu45geO3zX8&t=1s).
 - Выполнение Bash агентом полезно только при изоляции, журналировании и понятном праве остановки. Источник: [We let an AI agent execute Bash and lived to talk about it](https://www.youtube.com/watch?v=I2cbIws9j10&t=19500s).
 
 ## Evals, reliability, observability
