@@ -37,7 +37,7 @@ The Autonomous Computer: Full-stack Infrastructure for Computer Use Agents,Ang L
 The best SDLC is the one you build yourself: Why orchestration changes everything,Shane Wolf; Andrei Bocan,Workshops Day 1,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 The Dark Arts of Skill Engineering,Paul Bakaus,,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 The model swap workshop,Pamela Fox; Arun Sekhar,Workshops Day 1,,https://www.ai.engineer/worldsfair/schedule,missing,5,
-The Prime Intellect Stack,Will Brown,Workshops Day 1,,https://www.ai.engineer/worldsfair/schedule,missing,5,
+The Prime Intellect Stack,"Will Brown, Prime Intellect",Workshops Day 1,https://www.youtube.com/watch?v=V-EDrhIhHzQ,https://www.ai.engineer/worldsfair/schedule,summarized,5,summaries/the-prime-intellect-stack-v-edrhihhzq.md
 Total Recall: Agent Memory and Harness Engineering,Ignacio Martinez,Workshops Day 1,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 Turning My Obsidian Vault Into a Local AI Engineer,Filip Makraduli,Workshops Day 1,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 Vector Isn't Enough: Hybrid Search & Retrieval for AI Engineers,Jeff Vestal,Track 7,,https://www.ai.engineer/worldsfair/schedule,missing,5,
@@ -182,7 +182,7 @@ Computer-Use 2.0: Agents Just Got Multi-Cursor,Francesco Bonacci; Dillon DuPont,
 "Deploy agents to users in M365, Teams, and apps",Ashu Joshi,Track M,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 Design at the Speed of Adjectives,Paul Bakaus,Design Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 "Don’t build agents, build environments",Adam Azzam,Sandbox & Platform Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,5,
-Don't Ship Skills Without Evals,Philipp Schmid,Evals,,https://www.ai.engineer/worldsfair/schedule,missing,5,
+Don't Ship Skills Without Evals,"Philipp Schmid, Google DeepMind",Evals,https://www.youtube.com/watch?v=0vphxNt4wyk,https://www.ai.engineer/worldsfair/schedule,summarized,5,summaries/don-t-ship-skills-without-evals-0vphxnt4wyk.md
 "Don't Write Skills, Train Models",Brian Douglas; John McBride,Workshops Day 3,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 Edge-Native AI: Building Ultra-Fast Agents and MCP Servers with Spin,Thorsten Hans,Expo Stage 2,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 Evaling Video Slop,Maor Bril,Evals,,https://www.ai.engineer/worldsfair/schedule,missing,5,
@@ -253,7 +253,7 @@ Warp: Building Self-Improving Agent Software Factories,Suraj Gupta,,,https://www
 Why Agents Should Have Their Own Sandbox,Philipp Schmid,Expo Stage 1,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 "Why your company needs a context graph, and how to build it",Gil Feig,Expo Stage 3,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 Will AI predict people like we predict the weather? (alternate title “A field guide to synthetic personas for market research”),Ishan Anand,Computer Use,,https://www.ai.engineer/worldsfair/schedule,missing,5,
-WTF Is the Context Layer? The Missing Infrastructure for Production Agents,Prukalpa Sankar,Context Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,5,
+WTF Is the Context Layer? The Missing Infrastructure for Production Agents,Prukalpa Sankar,Context Engineering,https://www.youtube.com/watch?v=8G_1-3IO4ZQ,https://www.ai.engineer/worldsfair/schedule,summarized,5,summaries/wtf-is-the-context-layer-the-missing-infrastructure-for-production-agents-8g_1-3io4zq.md
 Your agent architecture has a half-life of 6 months,Dan Farrelly,,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 "Your agent needs a sandbox, not a desert",Samuel Colvin,Sandbox & Platform Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 "🎵 Every step you take, every call you make - the reliable agent stack",Giselle van Dongen,Harness Engineering,https://www.youtube.com/watch?v=I2cbIws9j10&t=17700s,https://www.ai.engineer/worldsfair/schedule,found_in_long_stream,5,
@@ -302,7 +302,7 @@ How Kepler Built Verifiable AI for Financial Services,Vinoo Ganesh,AI in Finance
 How to build an AI-Native Health Company,Dan Feng,AI in Healthcare,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 How We Got LLMs to Recommend Our Open Source Library (Without Paying or Plug-ins),Christopher Burns,AI in GTM,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 How we Solved Agent Building,Andrew Qu,Harness Engineering,https://www.youtube.com/watch?v=I2cbIws9j10&t=22800s,https://www.ai.engineer/worldsfair/schedule,found_in_long_stream,5,
-HTML Is All Agents Need,James Russo,Generative Media,,https://www.ai.engineer/worldsfair/schedule,missing,5,
+HTML Is All Agents Need,"James Russo, HeyGen",Generative Media,https://www.youtube.com/watch?v=Cz4v1WHVyZc,https://www.ai.engineer/worldsfair/schedule,summarized,5,summaries/html-is-all-agents-need-cz4v1whvyzc.md
 Inside 847 Production Clinical AI Notes,Sebastian Fox,AI Architects: AI Factories,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 Let's integrate AI Agents in Event-Sourced Systems,Divakar Kumar,AI in Finance,,https://www.ai.engineer/worldsfair/schedule,missing,5,
 "Local Models: Trust, Control, Optimization",Carter Abdallah; Vincent Weisser; Lucas Atkins; Chris Alexiuk,Local AI,,https://www.ai.engineer/worldsfair/schedule,missing,5,
@@ -381,7 +381,7 @@ How we taught agents to use good retrieval,"Hanna Lichtenberg, Mixedbread AI",On
 Production Evals For Agentic AI Systems,"Nishant Gupta, Meta Superintelligence Labs",Online Track,https://www.youtube.com/watch?v=vljxQZfJ9wY,https://www.ai.engineer/worldsfair/schedule,summarized,5,summaries/production-evals-for-agentic-ai-systems.md
 Recursive Coding Agents,"Raymond Weitekamp, OpenProse",Online Track,https://www.youtube.com/watch?v=3hXJI2q0Jz8,https://www.ai.engineer/worldsfair/schedule,summarized,5,summaries/recursive-coding-agents-3hxji2q0jz8.md
 Stop AI Agent Hallucinations: 5 Techniques + Production Patterns,"Elizabeth Fuentes, AWS",Online Track,https://www.youtube.com/watch?v=vJukHCIv7Ck,https://www.ai.engineer/worldsfair/schedule,summarized,5,summaries/stop-ai-agent-hallucinations-5-techniques-production-patterns-vjukhciv7ck.md
-Stop Evaluating Models Like It's the 50s,"Alejandro Vidal, Mindmakers",Online Track,https://www.youtube.com/watch?v=EfcfUB2uprc,https://www.ai.engineer/worldsfair/schedule,summarized,5,summaries/stop-evaluating-models-like-it-s-the-50s-efcfub2uprc.md
+Stop Evaluating Models Like It's the 50s,"Alejandro Vidal, Mindmakers",Online Track,https://www.youtube.com/watch?v=O3FEoMYvUf8,https://www.ai.engineer/worldsfair/schedule,summarized,5,summaries/stop-evaluating-models-like-it-s-the-50s-efcfub2uprc.md
 SWE-Marathon: Evaluating Coding Agents at Billion-Token Scale,"Rishi Desai, Abundant AI",Online Track,https://www.youtube.com/watch?v=Rx8f05JI_WA,https://www.ai.engineer/worldsfair/schedule,summarized,5,summaries/swe-marathon-evaluating-coding-agents-at-billion-token-scale-rx8f05ji-wa.md
 The Miranda Hypothesis: How Hamilton Poisoned Persona Evals,"Jacob E. Thomas, Results Gen",Online Track,https://www.youtube.com/watch?v=IJXjTLPzvAU,https://www.ai.engineer/worldsfair/schedule,summarized,5,summaries/the-miranda-hypothesis-how-hamilton-poisoned-persona-evals-ijxjtlpzvau.md
 Turbocharge Your Agent's Retrieval with TurboQuant,"Shashi Jagtap, Superagentic AI",Online Track,https://www.youtube.com/watch?v=tB9RKTrU-Ig,https://www.ai.engineer/worldsfair/schedule,summarized,5,summaries/turbocharge-your-agent-s-retrieval-with-turboquant-tb9rktru-ig.md
@@ -458,8 +458,8 @@ Scaling Compute on Context,Jack Morris,Memory & Continual Learning,,https://www.
 The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development,John Lindquist,Workshops Day 3,,https://www.ai.engineer/worldsfair/schedule,missing,4,
 The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development (continued 2),John Lindquist,Workshops Day 3,,https://www.ai.engineer/worldsfair/schedule,missing,4,
 The Agentic Power User's Playbook: Tips and Tricks for Swarm-Style Agentic Development (continued 3),John Lindquist,Workshops Day 3,,https://www.ai.engineer/worldsfair/schedule,missing,4,
-The Z/L Continuum: Should AI Engineers Still Read Code?,Alex Volkov,AI Architects: Tokenmaxxing,,https://www.ai.engineer/worldsfair/schedule,missing,4,
-Understanding is the new bottleneck,Geoffrey Litt,Design Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,4,
+Should AI Engineers Still Read Code in 2026? The Z/L Continuum,"Alex Volkov, ThursdAI",AI Architects: Tokenmaxxing,https://www.youtube.com/watch?v=ZpK5PWX2YRM,https://www.ai.engineer/worldsfair/schedule,summarized,4,summaries/should-ai-engineers-still-read-code-in-2026-the-z-l-continuum-zpk5pwx2yrm.md
+Understanding is the new bottleneck,"Geoffrey Litt, Notion",Design Engineering,https://www.youtube.com/watch?v=WkBPX-oDMnA,https://www.ai.engineer/worldsfair/schedule,summarized,4,summaries/understanding-is-the-new-bottleneck-wkbpx-odmna.md
 Why Large? Tiny LMs & Agents on Edge/Robotics,Cormac Brick,Robotics & World Models,,https://www.ai.engineer/worldsfair/schedule,missing,4,
 Your agents lack context: Here's how to fix You're absolutely right!,Brandon Waselnuk,Context Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,4,
 Active Graph Agent Runtime (BabyAGI 4),Yohei Nakajima,Graphs,,https://www.ai.engineer/worldsfair/schedule,missing,4,
@@ -474,7 +474,7 @@ Compression at the Edge,Chris Alexiuk; Daniel Han; Asma Beevi; Merve Noyan; Part
 Compression at the Edge,Chris Alexiuk; Daniel Han; Asma Beevi; Merve Noyan; Parth Sareen,Local AI,,https://www.ai.engineer/worldsfair/schedule,missing,4,
 Dashboards are Dead,Sarah Simionescu,,,https://www.ai.engineer/worldsfair/schedule,missing,4,
 Design multi-agent systems that actually work,Tina Manghnani,Track M,,https://www.ai.engineer/worldsfair/schedule,missing,4,
-How Juries and Librarians Can Solve GTM's AI Trust Problem,Alex Bauer,AI in GTM,,https://www.ai.engineer/worldsfair/schedule,missing,4,
+"Design Patterns for AI Trust: Juries, Libraries, and Agent Tiers","Alex Bauer, Upside.tech",AI in GTM,https://www.youtube.com/watch?v=YZQsWVeN3rE,https://www.ai.engineer/worldsfair/schedule,summarized,4,summaries/design-patterns-for-ai-trust-juries-libraries-and-agent-tiers-yzqswven3re.md
 Knowledge Systems: The New GTM Stack,Jeffrey Wang,AI in GTM,,https://www.ai.engineer/worldsfair/schedule,missing,4,
 KV Cache-Aware Routing and P/D Disaggregation on Kubernetes: The Parts Public Benchmarks Don't Show,Yuchen Fama; Ashish Kamra,Inference,,https://www.ai.engineer/worldsfair/schedule,missing,4,
 On-Device Agentic AI for the New York Times Games,Shafik Quoraishee; Joanne Song,Graphs,,https://www.ai.engineer/worldsfair/schedule,missing,4,
@@ -547,7 +547,7 @@ Data Quality is the Compute Multiplier,Ari Morcos,Data Quality,,https://www.ai.e
 Ending AI Slop,Thais Castello Branco,Data Quality,,https://www.ai.engineer/worldsfair/schedule,missing,1,
 Forward Deployed Engineering 101,Kevin Bai,Forward Deployed Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,1,
 How Forward Deployed Engineering is done at Cognition,Jia Wu,Forward Deployed Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,1,
-How Forward Deployed Engineering is done at Cursor,Pauline Brunet,Forward Deployed Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,1,
+Forward Deployed Engineering at Cursor,Pauline Brunet,Forward Deployed Engineering,https://www.youtube.com/watch?v=APqXGyCoGW4,https://www.ai.engineer/worldsfair/schedule,summarized,1,summaries/forward-deployed-engineering-at-cursor-apqxgycogw4.md
 How Forward Deployed Engineering is done at Decagon,Sunny Rekhi,Forward Deployed Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,1,
 How Forward Deployed Engineering is done at Factory,Eno Reyes,Forward Deployed Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,1,
 How Forward Deployed Engineering is done at Kepler,Vinoo Ganesh,Forward Deployed Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,1,
@@ -569,11 +569,11 @@ Commercial Grade-Robots for Real World Usage,Jason Ma,Robotics & World Models,,h
 "Don't Write Skills, Train Models (cont. 3/3)",Brian Douglas,Workshops Day 3,,https://www.ai.engineer/worldsfair/schedule,missing,1,
 First Steps Toward Automated AI Research,Richard Socher,Autoresearch,https://www.youtube.com/watch?v=4sX_He5c4sI&t=6300s,https://www.ai.engineer/worldsfair/schedule,found_in_long_stream,1,
 Frontier Robotics Research,Deepak Pathak,Robotics & World Models,,https://www.ai.engineer/worldsfair/schedule,missing,1,
-Imagination Engineering,Eve Bouffard,Design Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,1,
+Imagination Engineering,"Eve Bouffard, Y Combinator",Design Engineering,https://www.youtube.com/watch?v=Z2Erdirpudo,https://www.ai.engineer/worldsfair/schedule,summarized,1,summaries/imagination-engineering-z2erdirpudo.md
 Learning on the job: the future of post-training,Raymond Feng,Posttraining & Midtraining,,https://www.ai.engineer/worldsfair/schedule,missing,1,
 One Designer + Al. Hundreds of Deliverables.,Vincent Wendy,Design Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,1,
 Research to Reality with Google DeepMind,Benoit Schillings,Autoresearch,https://www.youtube.com/watch?v=4sX_He5c4sI&t=3900s,https://www.ai.engineer/worldsfair/schedule,found_in_long_stream,1,
-State of Data,Sean Cai,Posttraining & Midtraining,,https://www.ai.engineer/worldsfair/schedule,missing,1,
+State of Data,"Sean Cai, Independent / State of Data",Posttraining & Midtraining,https://www.youtube.com/watch?v=ZyIoTOAbRfs,https://www.ai.engineer/worldsfair/schedule,summarized,1,summaries/state-of-data-zyiotoabrfs.md
 Training Taste,Thais Castello Branco,Design Engineering,,https://www.ai.engineer/worldsfair/schedule,missing,1,
 Trends in AI,George Cameron; Micah Hill-Smith,Autoresearch,https://www.youtube.com/watch?v=4sX_He5c4sI&t=28200s,https://www.ai.engineer/worldsfair/schedule,found_in_long_stream,1,
 Unitree: Building Mass Produced Humanoids,XiangMing Sun,Robotics & World Models,,https://www.ai.engineer/worldsfair/schedule,missing,1,
@@ -714,3 +714,12 @@ Content Is Code,"Matt Palmer, Conductor",,https://www.youtube.com/watch?v=yv6xov
 RLM: Recursive Language Models for Large Codebases,"Shashi, Superagentic AI",,https://www.youtube.com/watch?v=8oyalrfwgjw,https://www.ai.engineer/worldsfair/schedule,summarized,3,summaries/rlm-recursive-language-models-for-large-codebases-8oyalrfwgjw.md
 The Agentic Web and the Bazaar Era of AI,"Ramesh Raskar, MIT Media Lab",,https://www.youtube.com/watch?v=sum9DgexFRQ,https://www.ai.engineer/worldsfair/schedule,summarized,3,summaries/the-agentic-web-and-the-bazaar-era-of-ai-sum9dgexfrq.md
 Building an ACP-Compatible Agent Live,"Bennet Fenner, Zed",,https://www.youtube.com/watch?v=HsxQICTLF84,https://www.ai.engineer/worldsfair/schedule,summarized,3,summaries/building-an-acp-compatible-agent-live-hsxqictlf84.md
+"Agents Need Receipts, Not More Tool Calls (duplicate re-upload)","Armanas Povilionis, Alithea Bio",Online Track,https://www.youtube.com/watch?v=Q9ycQHbDdJs,https://www.ai.engineer/worldsfair/schedule,excluded,,
+The Golden Age of AI Engineering,"Alexander Embiricos & Romain Huet & Peter Steinberger, OpenAI",,https://www.youtube.com/watch?v=pMggiOb18tc,https://www.ai.engineer/worldsfair/schedule,summarized,3,summaries/the-golden-age-of-ai-engineering-pmggiob18tc.md
+"In the Land of AI Agents, the Verifiers Are King","Tariq Shaukat, Sonar",,https://www.youtube.com/watch?v=VrpEyglYgeU,https://www.ai.engineer/worldsfair/schedule,summarized,3,summaries/in-the-land-of-ai-agents-the-verifiers-are-king-vrpeyglygeu.md
+Research to Reality with Google DeepMind,"Benoit Schillings, Google DeepMind",,https://www.youtube.com/watch?v=1P1hJ36rxM0,https://www.ai.engineer/worldsfair/schedule,summarized,3,summaries/research-to-reality-with-google-deepmind-1p1hj36rxm0.md
+Recursive Model Improvement,"Lee Robinson, Cursor",,https://www.youtube.com/watch?v=q4Tr-DknG2M,https://www.ai.engineer/worldsfair/schedule,summarized,3,summaries/recursive-model-improvement-q4tr-dkng2m.md
+"""I've never seen anything scarier than an LLM with tool calls.""",Erik Meijer aka @HeadinTheBox,,https://www.youtube.com/watch?v=-CnA2lGfymY,https://www.ai.engineer/worldsfair/schedule,summarized,3,summaries/i-ve-never-seen-anything-scarier-than-an-llm-with-tool-calls--cna2lgfymy.md
+From fork() to Fleet: Designing an Agent Sandbox Cloud,"Abhishek Bhardwaj, OpenAI",,https://www.youtube.com/watch?v=OqM67QG_Ikk,https://www.ai.engineer/worldsfair/schedule,summarized,3,summaries/from-fork-to-fleet-designing-an-agent-sandbox-cloud-oqm67qg_ikk.md
+"""The engineer of the future is the person who is able to choose what is worth doing."" — Addy Osmani",,,https://www.youtube.com/watch?v=n97BCfyFIvw,https://www.ai.engineer/worldsfair/schedule,summarized,3,summaries/the-engineer-of-the-future-is-the-person-who-is-able-to-choose-what-is-worth-doi-n97bcfyfivw.md
+This Year in Claude,"Cat Wu & Thariq Shihipar, Anthropic",,https://www.youtube.com/watch?v=uU5Gv2h8-9g,https://www.ai.engineer/worldsfair/schedule,summarized,3,summaries/this-year-in-claude-uu5gv2h8-9g.md
