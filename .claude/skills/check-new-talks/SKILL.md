@@ -18,6 +18,9 @@ authoritative playlist/upload-date rules and the five specific mistakes to avoid
 - Run from the repo root. Needs `yt-dlp` on PATH and network access.
 - The summary format is the parser contract in the repo's `AGENTS.md` (and
   `site/scripts/build-data.mjs`). Follow it for any body you write.
+- Steps 3–6 (scaffold → write → wire → ship) are detailed in
+  [references/summarizing.md](references/summarizing.md) — the operational playbook,
+  including the transcript pipeline, re-upload handling, and exact count locations.
 
 ## Workflow
 
@@ -34,8 +37,14 @@ authoritative playlist/upload-date rules and the five specific mistakes to avoid
 
 2. **Review before touching anything.** For each "VERIFY MANUALLY" item, confirm
    provenance per references/provenance.md; if still unclear, **ask the user** —
-   never add an unverified talk. The "TO ADD" items already carry the real
-   YouTube title and speaker: use them verbatim, do not paraphrase.
+   never add an unverified talk. Most VERIFY items are premieres or private/
+   unavailable videos — inaccessible, not other-event: leave them out (they
+   resurface when public), don't `excluded`-suppress them. See
+   [references/summarizing.md](references/summarizing.md) §2. The "TO ADD" items
+   already carry the real YouTube title and speaker: use them verbatim, do not
+   paraphrase. **Cross-check each TO-ADD title against existing summaries** — a
+   match is usually a re-upload of an already-covered talk (repoint, don't
+   duplicate; summarizing.md §3), not a new one.
    To permanently suppress a real WF2026 video you deliberately do *not* want
    (e.g. a montage reel), add a `manifest.csv` row with its `youtube_url` and
    status `excluded` (no `summary_path`) — the detector treats any video already
@@ -46,18 +55,29 @@ authoritative playlist/upload-date rules and the five specific mistakes to avoid
    plus a draft `pending` row in `manifest.csv` (pending rows do not render and
    do not break the build).
 
-4. **Write the summary.** Fill the stub body in Russian per the AGENTS.md format
-   (sections keyed by title; timecodes only inside «Самые важные таймкоды»). Do
-   not invent content — base it on the actual talk.
+4. **Write the summary.** Base every body and timecode on the real talk — fetch
+   its transcript first (this also re-checks upload date and gives the duration
+   your timecodes must stay within):
+   ```bash
+   node .claude/skills/check-new-talks/scripts/fetch-transcripts.mjs <id> [<id>...]
+   ```
+   It writes `transcripts/<id>.txt` (gitignored — **never commit transcripts**).
+   Fill each stub in Russian per the AGENTS.md format (sections keyed by title;
+   timecodes only inside «Самые важные таймкоды», sorted, each ≤ the video length).
+   For many talks, dispatch parallel subagents — see
+   [references/summarizing.md](references/summarizing.md) §§1,4,5. Do not invent
+   content; carry ASR-garbled names/products through cautiously.
 
 5. **Wire it in.** Flip that manifest row `status` `pending`→`summarized` and set
    its `summary_path`. Do not attach a video to an existing `missing` schedule
    slot unless the real title matches it.
 
-6. **Sync counts** in `README.md` and `missing-sessions.md` (summaries total;
-   the not-found count drops only if you actually filled a schedule slot). Do not
-   promote a talk in `highlights.md` / `topic-map.md` / `watchlist.md` unless it
-   is confirmed WF2026.
+6. **Sync counts** in `README.md` and `missing-sessions.md` — exact lines and the
+   `sessions.json` `stats` cross-check are in
+   [references/summarizing.md](references/summarizing.md) §6 (summaries total; the
+   not-found count drops only if you actually filled a schedule slot; leave the
+   segment count alone). Do not promote a talk in `highlights.md` / `topic-map.md` /
+   `watchlist.md` unless it is confirmed WF2026.
 
 ## Success criterion
 
@@ -73,4 +93,6 @@ authoritative playlist/upload-date rules and the five specific mistakes to avoid
 | Path | When to read |
 |---|---|
 | [references/provenance.md](references/provenance.md) | Before reviewing the report or judging any edge case — the WF2026 classification rules and the five pitfalls. |
+| [references/summarizing.md](references/summarizing.md) | Before scaffolding/writing — the playbook for transcripts, re-uploads, VERIFY cases, parallel summarizing, count sync, and shipping. |
 | [scripts/check-new-talks.mjs](scripts/check-new-talks.mjs) | The detector/scaffolder. Read it only to change detection behavior. |
+| [scripts/fetch-transcripts.mjs](scripts/fetch-transcripts.mjs) | Run in step 4 to pull each talk's transcript + duration. Read it only to change transcript handling. |
